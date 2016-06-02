@@ -51,6 +51,16 @@
 				$settings['dir']['app-header'].'/home.html',
 			)
 		),
+
+		'teste' => array(
+			'@head' => array(
+				'@title' => 'Teste'
+			),
+
+			'@include' => array(
+				$settings['dir']['teste'].'/index.html',
+			)
+		)
 	)
 	# # # # # # # # # /  DEFINE PAGINAS DA APLICAÇÃO / # # # # # # # # #
 ?>

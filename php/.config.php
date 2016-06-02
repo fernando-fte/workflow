@@ -9,7 +9,7 @@
 	$get = $_GET;
 
 
-	# # # \ VALIDA SE FOI RECEBIDO UM CONJUNTO DE QUERY \ # # #
+	# # # / VALIDA SE FOI RECEBIDO UM CONJUNTO DE QUERY / # # #
 	if (parse_url($_SERVER['REQUEST_URI'])['query'] != false) {
 		
 		# # Explode as variaves
@@ -32,7 +32,19 @@
 		# # # Apaga dados usados
 		unset($temp, $me);
 	}
-	# # # \ VALIDA SE FOI RECEBIDO UM CONJUNTO DE QUERY \ # # #
+	# # # / VALIDA SE FOI RECEBIDO UM CONJUNTO DE QUERY / # # #
+
+
+	# # # /CONFIGURA SELETORES PADRÃO PARA O BANCO DE DADOS / # # # #
+	$settings['select_db_list'] = array(
+		0 => array('id', 'sku'),
+		1 => array('values', 'data', 'contents'),
+		2 => array('secao'),
+		3 => array('grupo'),
+		4 => array('tipo'),
+		5 => array('item'),
+	);
+	# # # /CONFIGURA SELETORES PADRÃO PARA O BANCO DE DADOS / # # # #
 
 
 	// Config page default

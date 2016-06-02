@@ -7,6 +7,6 @@
 	include 'vendor/phpSelectSQL.php';
 
 	// Inclui configurações para xml
-	include 'xml/index.php';
+	include 'functions.php';
 
 ?>

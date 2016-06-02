@@ -15,7 +15,7 @@ $connect['user'] = 'root';
 $connect['pasword'] = ''; 
 
 # banco de dados
-$connect['database'] = ''; 
+$connect['database'] = 'workflow'; 
 
 /**
 # CONFIGURAÇÃO DE CONEXÃO COM O SERVIDOR
