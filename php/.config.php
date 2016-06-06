@@ -39,12 +39,18 @@
 	$settings['select_db_list'] = array(
 		0 => array('id', 'sku'),
 		1 => array('values', 'data', 'contents'),
-		2 => array('secao'),
-		3 => array('grupo'),
-		4 => array('tipo'),
-		5 => array('item'),
+		2 => array('secao', 'conteudo'),
+		3 => array('grupo', 'instituicao'),
+		4 => array('classe', 'projeto'),
+		5 => array('tipo', 'nome'),
+		6 => array('item', 'ordem'),
 	);
 	# # # /CONFIGURA SELETORES PADRÃO PARA O BANCO DE DADOS / # # # #
+
+
+	# # # / CONFIGURA ARRAY EM BANCO / # # # #
+	$settings['banco'] = array();
+	# # # / CONFIGURA ARRAY EM BANCO / # # # #
 
 
 	// Config page default

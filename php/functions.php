@@ -1,8 +1,9 @@
 <?php 
 	# # Funcão para tratar os seletores
-	function normalize_select($post) {
+	function normalize_select($post, $method) {
 		/*// Recebe
 		 // $post => array => "Valores de seleção do banco para normalização"
+		 // $metho => boolean => true "para limpar tudo" 
 		//*/
 
 		# # # DECLARA INSTANCIAS DO RESULTADO
@@ -33,6 +34,12 @@
 
 					# # # # Adiciona o valor de acordo com a matriz em U
 					$result['done'][$u] = $post[$me[$i]];
+				}
+
+				# # # # Valida os dados caso o metodo seja limpar tudo
+				else if ($method == true) {
+					# # # # Remove valor de $result['done']
+					unset($result['done'][$me[$i]]);					
 				}
 			}
 			unset($u);
@@ -91,7 +98,4 @@
 
 		return $result;
 	}
-
-
-	
 ?>

@@ -758,4 +758,36 @@
 
 		return $result;
 	}
+
+	# # # \ IMPRIME CAMINHOS \ # # #
+	function path($id) {
+
+		# # # DECLARA INSTANCIAS DO RESULTADO
+		$result = array(
+			'success' => null,
+			'erro' => null,
+			'this' => 'F::path',
+			'done' => null,
+		);
+
+		if (array_key_exists($id, $GLOBALS['settings']['dir'])) {
+
+			echo $GLOBALS['settings']['dir'][$id];
+			$result['success'] = true;
+		}
+
+		else if ($id == 'root') {
+			echo $GLOBALS['settings']['wwwroot'];
+			$result['success'] = true;
+		}
+
+		else {
+			$result['success'] = false; 
+			$result['erro'] = true; 
+			// $result['done'] = 'Não existe o arquivo';
+			$result['done'] = $GLOBALS['settings'];
+		}
+
+		return $result;
+	}
 ?>

@@ -1,0 +1,1635 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"s",
+				"span	Tag"
+			],
+			[
+				"app-cor-pr",
+				"app-cor-preto-0"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"_",
+				"_blank"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"font",
+				"fonte_inline"
+			],
+			[
+				"te",
+				"temp"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"scrol",
+				"scrollTop"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"o",
+				"offset"
+			],
+			[
+				"app",
+				"app-display"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"app-ati",
+				"app-ati-item"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"au",
+				"autores"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"un",
+				"undefined"
+			],
+			[
+				"data-b",
+				"data-book-unidade"
+			],
+			[
+				"app-",
+				"app-fonte"
+			],
+			[
+				"cla",
+				"class"
+			],
+			[
+				"par",
+				"parseHTML"
+			],
+			[
+				"strin",
+				"stringify"
+			],
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"arr",
+				"array_key_exists"
+			],
+			[
+				"arra",
+				"array_key_exists"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"j",
+				"json_encode"
+			],
+			[
+				"get",
+				"gettype"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"lo",
+				"log	log"
+			],
+			[
+				"ph",
+				"php"
+			],
+			[
+				"att",
+				"attr"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"que",
+				"queue"
+			],
+			[
+				"data",
+				"data-app-ctrl"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"w",
+				"while"
+			],
+			[
+				"de",
+				"delay"
+			],
+			[
+				"sec",
+				"section-page-item"
+			],
+			[
+				"ap",
+				"app-display"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"c",
+				"click"
+			],
+			[
+				"app-cor-pa",
+				"app-cor-padrao"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"app-cor-",
+				"app-cor-preto-10"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"ad",
+				"addClass"
+			],
+			[
+				"app-cor-pre",
+				"app-cor-preto-60"
+			],
+			[
+				"tog",
+				"toggleClass"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"proce",
+				"proccess"
+			],
+			[
+				"ge",
+				"gettype"
+			],
+			[
+				"replace",
+				"str_replace"
+			],
+			[
+				"getw",
+				"getcwd"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"file_",
+				"file_open"
+			],
+			[
+				"array_re",
+				"array_replace_recursive"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"obj",
+				"is_object"
+			],
+			[
+				"array_keys",
+				"array_key_exists"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"pat",
+				"path"
+			],
+			[
+				"jos",
+				"json_decode"
+			],
+			[
+				"fetc",
+				"file_get_contents"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"ove",
+				"overflow"
+			],
+			[
+				"app-cor",
+				"app-cor-preto-0"
+			],
+			[
+				"bore",
+				"border-color"
+			],
+			[
+				"app-corp",
+				"app-cor-padrao-60"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"app-cor-preto-",
+				"app-cor-preto-0"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"js",
+				"JavaScript"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"app-co",
+				"app-cor-padrao-80"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"app-fon",
+				"app-font-app"
+			],
+			[
+				"app-br",
+				"app-cover-btn-pdd"
+			],
+			[
+				"app-cover",
+				"app-cover-btn-font"
+			],
+			[
+				"baco",
+				"background-color"
+			],
+			[
+				"app-cor-preto",
+				"app-cor-preto-0"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"app-cor-r",
+				"app-cor-preto-60"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"pi",
+				"pointer"
+			],
+			[
+				"border-c",
+				"border-left-color"
+			],
+			[
+				"background-C",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"cor",
+				"color"
+			],
+			[
+				"foin",
+				"font-family"
+			],
+			[
+				"the",
+				"thead	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"key",
+				"array_keys"
+			],
+			[
+				"parser",
+				"parse_str"
+			],
+			[
+				"url",
+				"parse_url"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"post",
+				"_POST"
+			],
+			[
+				"pr",
+				"print"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Add Channel"
+			],
+			[
+				"pack",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"expandSelectionToParagraph"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/projeto/web/workflow",
+		"/D/projeto/web/workflow/contents",
+		"/D/projeto/web/workflow/contents/app",
+		"/D/projeto/web/workflow/contents/app/basic",
+		"/D/projeto/web/workflow/contents/app/blocks",
+		"/D/projeto/web/workflow/contents/app/headers",
+		"/D/projeto/web/workflow/contents/teste"
+	],
+	"file_history":
+	[
+		"/D/projeto/web/workflow/php/.paths.php",
+		"/D/projeto/web/workflow/php/.pages.php",
+		"/D/projeto/web/workflow/contents/app/blocks/disciplina.lista.html",
+		"/D/projeto/web/workflow/contents/app/headers/disciplinas.html",
+		"/D/projeto/web/workflow/php/.functions.php",
+		"/D/projeto/web/workflow/contents/app/basic/menu.html",
+		"/D/projeto/web/workflow/php/functions.php",
+		"/D/projeto/web/workflow/contents/app/blocks/disciplina.list.html",
+		"/D/projeto/web/workflow/contents/app/headers/carrinho.html",
+		"/D/projeto/web/workflow/contents/app/headers/home.html",
+		"/D/projeto/web/vg/livroDigital/temp/render.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/done/app/psicologia-da-educacao-fundamentos-para-a-aprendizagem-unipar-iv.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/done/app/psicologia-da-educacao-fundamentos-para-a-aprendizagem-unipar-iii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/done/app/psicologia-da-educacao-fundamentos-para-a-aprendizagem-unipar-ii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/done/app/psicologia-da-educacao-fundamentos-para-a-aprendizagem-unipar-i.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/Processamento/psicologia-da-educacao-fundamentos-para-a-aprendizagem-e-o-desenvolvimento-h.txt",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/psicologia-da-educacao-fundamentos-para-a-aprendizagem-e-o-desenvolvimento-humano.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Introdução à Neurociencia e Neuropedagogia/done/app/introducao-a-neurociencia-e-neuropedagogia-unidade-iv.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Introdução à Neurociencia e Neuropedagogia/done/app/introducao-a-neurociencia-e-neuropedagogia-unidade-iii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Introdução à Neurociencia e Neuropedagogia/done/app/introducao-a-neurociencia-e-neuropedagogia-unidade-ii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Introdução à Neurociencia e Neuropedagogia/done/app/introducao-a-neurociencia-e-neuropedagogia-unidade-i.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Introdução à Neurociencia e Neuropedagogia/introducao-a-neurociencia-e-neuropedagogia.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Introdução à Neurociencia e Neuropedagogia/processamento/Introdução à Neurociencia e Neuropedagogia - videos.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Funções Neurais de Aprendizagem/funcoes-neurais-de-aprendizagem.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Funções Neurais de Aprendizagem/done/app/funcoes-neurais-de-aprendizagem-unidade-iv.html",
+		"/D/projeto/web/vg/livroDigital/scripts/app.coffee",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/js/app.js",
+		"/D/projeto/web/vg/livroDigital/_src/cmd.start.txt",
+		"/D/projeto/web/livrodigital/aplicativos/vgconsultoria/scripts/app.coffee",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Funções Neurais de Aprendizagem/done/app/funcoes-neurais-de-aprendizagem-unidade-iii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Funções Neurais de Aprendizagem/done/app/funcoes-neurais-de-aprendizagem-unidade-ii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Funções Neurais de Aprendizagem/done/app/funcoes-neurais-de-aprendizagem-unidade-i.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/js/app.coffee",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/library/e764789f67c31f1417c53b4af90f7814/figura.1.1.svg",
+		"/D/projeto/web/livrodigital/aplicativos/vgconsultoria/library/figura.1.1.svg",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Funções Neurais de Aprendizagem/done/app/library/e764789f67c31f1417c53b4af90f7814/figura.1.1.svg",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Funções Neurais de Aprendizagem/done/app/funcoes-neurais-de-aprendizagem.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Funções Neurais de Aprendizagem/Processamento/Funções Neurais de Aprendizagem - videos.html",
+		"/D/projeto/web/livrodigital/aplicativos/vgconsultoria/index.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Funções Neurais de Aprendizagem/Links/figura.1.2.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Projeto/Desenvolvimento/php/scripts/parse.coffee",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/done/app/psicologia-da-educacao-fundamentos-para-a-aprendizagem-e-o-desenvolvimento.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 3/Metodologia de Pesquisa Científica/metodologia-de-pesquisa-cientifica.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 5/Introdução à Neurociencia e Neuropedagogia/done/app/introducao-a-neurociencia-e-neuropedagogia.html",
+		"/D/Google Drive/.Projetos/Uniube/.Projeto/info.txt",
+		"/D/projeto/web/area51/Cria-pastas/Uniube/.Projeto/info.txt",
+		"/D/projeto/web/area51/Cria-pastas/Uniube/functinos.php",
+		"/D/projeto/web/vg/livroDigital/temp/modelo/book.clean.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-unidade-i.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-unidade-ii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-unidade-iii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-unidade-iv.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/transtornos-de-aprendizagem.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/processamento/Transtorno de Aprendizagem - vídeos.txt",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/transtornos-de-aprendizagem.html",
+		"/D/Google Drive/.Usuarios/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/processamento/Transtorno de Aprendizagem [marcacao].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/processamento/Transtorno de Aprendizagem [marcacao].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/gerenciamento-de-residuos-solidos-e-recursos-hidricos.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Direito Comercial/done/app/direito-comercial-unidade-i.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Direito Comercial/done/app/direito-comercial-unidade-ii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Direito Comercial/direito-comercial.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 1/Planejamento Estratégico de Negócios/Planejamento Estratégico de Negócios.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 1/Planejamento Estratégico de Negócios/done/planejamento-estrategico-de-negocios-unidade-i.html",
+		"/D/projeto/web/vg/livroDigital/style/less/app/outros.less",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/css/app.css",
+		"/D/projeto/web/vg/livroDigital/style/app.css",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-iv.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-iii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-ii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-i.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/bioestatistica.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/Bioestatística - anexos.html",
+		"/D/projeto/web/vg/livroDigital/php/scripts/parse.coffee",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/bioestatistica-unidade-ii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/bioestatistica-unidade-iv.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/bioestatistica-unidade-iii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/bioestatistica-undiade-iii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Direito Comercial/processamento/Direito Comercial - vídeos.txt",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Direito Comercial/done/app/direito-comercial-unidade-iii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Direito Comercial/done/app/direito-comercial-unidade-iv.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/processamento/Bioestatística - vídeos.txt",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Direito Comercial/processamento/Direito Comercial - vídeos.indd",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Direito Comercial/done/app/direito-comercial.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Direito Comercial/processamento/Direito Comercial [marcacao].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/Transtorno de Aprendizagem [marcacao].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/app/gerenciamento-de-residuos-solidos-e-recursos-hidricos-unidade-iv.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/app/gerenciamento-de-residuos-solidos-e-recursos-hidricos-unidade-iii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/app/gerenciamento-de-residuos-solidos-e-recursos-hidricos-unidade-ii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/app/gerenciamento-de-residuos-solidos-e-recursos-hidricos-unidade-i.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/Processamento/Gerenciamento de Resíduos Sólidos e Recursos Hídricos - vídeos.txt",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/Gerenciamento de Resíduos Sólidos e Recursos Hídricos - Forum.docx",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/bioestatistica-undiade-i.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-iv[professor].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/bioestatistica-undiade-iv.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/bioestatistica-unidade-iv[professor].html",
+		"/D/projeto/web/vg/livroDigital/temp/modelo/book.query.txt",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/processamento/_Bioestatística - unidade iv [marcacao].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/processamento/Bioestatística - unidade iv [marcacao].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/bioestatistica-undiade-ii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/bioestatistica-unidade-ii[professor].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-ii[professor].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/teste.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-i[professor].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioetica-unidade-i[professor].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Projeto/Materiais/Estudo/LaTex/teste 1/teste_matematica_marcacao.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/processamento/Bioestatística - undiade i[marcacao].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/app/gerenciamento-de-residuos-solidos-e-recursos-hidricos.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/Processamento/book.video.list.html",
+		"/D/projeto/web/vg/livroDigital/temp/modelo/book.video.list.html",
+		"/D/Google Drive/.Usuarios/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/gerenciamento-de-residuos-solidos-e-recursos-hidricos.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/Processamento/Gerenciamento de Resíduos Sólidos e Recursos Hídricos [marcacao].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Projeto/Materiais/Estudo/LaTex/matematica_teste_1.html",
+		"/C/Arquivos de Programas RFB/IRPF2016/tutorial/tutorial.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 3/Metodologia de Pesquisa Científica/done/app/metodologia-de-pesquisa-cientifica-unidade-ii.html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-[tratamento].html",
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem.html",
+		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Bioética/done/app/bioetica-unidade-iii.html",
+		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Bioética/bioetica.html",
+		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Bioética/done/app/bioetica-unidade-ii.html",
+		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/educacao-e-novas-tecnologias-para-o-ensino.html",
+		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/processamento/figuras/figura.4.1.svg",
+		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/processamento/figuras/INLINE_figura.4.1.svg",
+		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/done/app/educacao-e-novas-tecnologias-para-o-ensino-unidade-iv.html",
+		"/C/Users/Usuário/Desktop/iv.html",
+		"/C/Users/Usuário/Desktop/educacao-e-novas-tecnologias-para-o-ensino-unidade-iv.html",
+		"/D/projeto/web/vg/livroDigital/_src/Processamento/.Done/educacao-e-novas-tecnologias-para-o-ensino-unidade-iv.html",
+		"/C/Users/Usuário/Desktop/figura.4.1.svg",
+		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/links/figura.4.1.svg"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\Google Drive\\Fernando\\Produção Editorial\\Livro Digital\\Produção\\Lote 4",
+			"D:\\Google Drive\\Fernando\\Produção Editorial\\Livro Digital\\Produção\\Lote 3",
+			"D:\\Google Drive\\Fernando\\Produção Editorial\\Livro Digital\\Produção\\Lote 4",
+			"D:\\projeto\\web\\vg\\livroDigital",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less\\app",
+			"D:\\projeto\\web\\vg\\livroDigital\\style",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less\\app",
+			"D:\\projeto\\web\\vg\\livroDigital",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less\\app",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less\\app",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less\\app",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less\\app",
+			"D:\\projeto\\web\\vg\\livroDigital\\style",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less\\app",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less\\app",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less\\app",
+			"D:\\projeto\\web\\vg\\livroDigital\\dist\\v.0.1.0",
+			"D:\\projeto\\web\\vg\\livroDigital",
+			"D:\\projeto\\web\\vg\\livroDigital\\style",
+			"D:\\projeto\\web\\vg\\livroDigital",
+			"D:\\projeto\\web\\vg\\livroDigital\\style\\less\\bootstrap"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" - [",
+			" ",
+			"paths",
+			"th",
+			"#IDVIDEO",
+			"Titulo = ",
+			"https://drive.google.com/open?id=",
+			"#IDVIDEO",
+			"\\n",
+			"true",
+			"1.	Ao longo deste tópico vimos sobre as habilidades e competências. Considerando o que foi exposto no livro, leia as afirmativas a seguir ",
+			"a Neuropedagogia compreende as relações entre ensino e aprendizagem em uma perspectiva neurobiológ",
+			"Titulo = ",
+			"#IDVIDEO",
+			"Titulo = ",
+			"https://drive.google.com/open?id=",
+			"#IDVIDEO",
+			"Titulo = ",
+			"https://drive.google.com/open?id=",
+			"#IDVIDEO",
+			".svg",
+			"Figura.1.3",
+			"svg",
+			"item",
+			"figura.1.1.svg\"",
+			"a e os níveis de desenvolvimento segundo Vygotsk",
+			"O desenvolvimento é caracterizado po",
+			"htmlConstruct",
+			"$(seletor)",
+			"class=\\\"app-fonte\\\"",
+			"class=\"app-fonte\"",
+			"class=\"app-",
+			"data-book-fonte",
+			"O desenvolvimento é caracterizado por um processo de sucessivas equilibrações. O de",
+			"\\^br\\^",
+			"> [0-9]?\\) ",
+			">[0-9]?\\) ",
+			"[0-9]?\\) ",
+			"[0-9]*\\) ",
+			"<h4>",
+			"inline",
+			";",
+			"document",
+			"issn",
+			"secao_titulo",
+			"Titulo = ",
+			"video.1.1",
+			"Titulo = ",
+			"%25",
+			"https://www.youtube.com/watc",
+			"https://www.youtube.com/watch%3Fv%3DXsLNJSshq34",
+			"%3D",
+			"%3F",
+			"%3",
+			"youtube",
+			"<div data-book-atividade-feed>",
+			"Correta: ",
+			"Correto: ",
+			"Incorreto: ",
+			"Correto: ",
+			"Incorreta: ",
+			"<div data-book-atividade-feed>",
+			"<h4>",
+			"<h",
+			"<h1>",
+			"secao_p>",
+			"<img data-book-unidade-capa src=\"unidade.1",
+			"<div data-book-unidade=\"",
+			"<div data-book-unidade",
+			"<introcucao_fim>",
+			"		<unidade_introducao>",
+			"		<introcucao_fim>",
+			"<unidade_introducao>",
+			"<unidade_autor class=\"autor\">",
+			"		<unidade_titulo>",
+			"<div data-book-unidade-info>",
+			"<div class=\"livro-unidade\">",
+			"<secao_cabeca>",
+			"<p></p>",
+			"\\^br\\^",
+			"^br^",
+			"<br>",
+			"^br^",
+			"\\^br\\^",
+			"</alternativa_true>",
+			"</alternativa>",
+			"</feed_true>",
+			"	<feed_true>",
+			"</alternativa_true>",
+			"	<alternativa_true>",
+			"</feed_false>",
+			"	<feed_false>",
+			"	<alternativa>",
+			"\n\n\n	<div data-book-atividade>",
+			"\n\n	<div data-book-atividade>",
+			"<atividade_fim",
+			"</questao>",
+			"	<questao>",
+			"<secao_cabeca>",
+			"<p data-book-fonte=\"fonte\">",
+			"<fonte><span><etiqueta>Fonte:</etiqueta></span> ",
+			"<div data-book-section=\"3\">",
+			"<secao_p><span><strong>ISBN:</strong></span> ",
+			"<secao_p><span><strong>Editora:</strong></span> ",
+			"<secao_p><span><strong>Autor:</strong></span> ",
+			"<secao_p><span><strong>Nome do livro:</strong></span> ",
+			"<div data-book-section=\"3\">",
+			">Indicação de leitura<",
+			">Fique por dentro <",
+			"<div data-book-section=\"1\">",
+			">Fique por dentro<",
+			"<div data-book-section=\"2\">",
+			">Reflita<",
+			"<secao_cabeca>",
+			"<referencia_link><a href=",
+			"<referencias_p>",
+			"introducao_p>",
+			"autor_info",
+			"<autor_titulacao>",
+			"</fonte_inline>",
+			"<fonte_inline>",
+			"<u>&#160;</u>|<strong>&#160;</strong>|<span>&#160;</span>",
+			"<[/]*x>|<strong>[ ]*</strong>|<span>[ ]*</span>|<i>[ ]*</i>|<b>[ ]*</b>|<u>[ ]*</u>|<a id=\"[\\S*]*\" />",
+			"[ ]*class=\"[ ]*\"|[0-9*]*[a-z*]*.&#9;",
+			"[ ]*para-style-override-[0-9*]*|[ ]*char-style-override-[0-9*]*|[ ]*frame-[0-9*]*|[ ]*id=\"table-[0-9*]*\"|[ ]*Row-Column-[0-9*]*|[ ]*xml:lang=\"[\\S*]*\"|[ ]*No-Paragraph-Style|[ ]*No-Table-Style|[ ]*corpo-secao-lista-bullets|",
+			"secao_titulo>",
+			"secao_p>",
+			"#IDVIDEO"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</p>\\n\\t\\t\\t\\t\\t<p>",
+			"%",
+			"=",
+			"?",
+			"</p>\\n\\t\\t\\t<p>",
+			"</span>",
+			"<span data-book-fonte>",
+			"&#160;",
+			"",
+			"</span>",
+			"<span data-book-fonte>",
+			"Figura 3.3",
+			"Figura 3.2",
+			"Figura 3.1",
+			"Figura 1.3",
+			"Figura 1.2",
+			"Figura 1.1",
+			"</p>\\n\\t\\t\\t\\t<p>",
+			"&#160;",
+			"",
+			"<span data-book-fonte>",
+			"<data-book-fonte>",
+			"</span>",
+			"span data-book-fonte>",
+			"&#160;",
+			"",
+			"&#160;",
+			"&#160",
+			"",
+			"Conta de",
+			"",
+			"R$",
+			"_math_",
+			"R|s",
+			"R$",
+			"_math_",
+			"-math-",
+			"math(",
+			"-math-",
+			"R|S",
+			"~\\text{&nbsp;}",
+			"\\text{ }\\hat{p}",
+			"\\hat{p}",
+			"\\text{ }\\hat{\\theta}\\text{ }",
+			"\\text{&nbsp;}",
+			"",
+			"~\\text{&nbsp;}",
+			"\\text{ }\\hat{p}",
+			"\\hat{p}",
+			"\\hat{\\theta}",
+			"\\bar{x}\\text{ }",
+			"\\text{ }\\bar{x}",
+			"\\text{&nbsp;}",
+			"",
+			"$\\hat{p}",
+			"\\hat{p}",
+			"",
+			" ",
+			"\\hat{\\theta}",
+			"\\bar{x}\\text{ }",
+			"\\text{ }\\bar{x}",
+			"\\text{ } \\bar{x}",
+			"\\text{&nbsp;}",
+			"\\text{ }\\bar{x}",
+			"\\hat{\\theta}",
+			"\\bar{x} ",
+			" \\bar{x}",
+			"\\bar{x}",
+			"\\text{&nbsp;}",
+			"\\text{%}",
+			"\\bar{x}",
+			"\\text{&nbsp;}",
+			"\\text{&#160;}",
+			" \\bar{X}",
+			"\\bar{X} ",
+			".svg",
+			"\\bar{x}",
+			"\\text{%}",
+			"Tabela 3.1",
+			"0B0saOBoxeYS_WWw5R3pQUUdObDA",
+			"0B0saOBoxeYS_cVM5eHNESURJLWs",
+			" src=\"",
+			"</span>",
+			"<span data-book-fonte>",
+			"&#160;",
+			"<br>",
+			"</i></b>",
+			"<b><i>",
+			"",
+			"h4>",
+			"h3>",
+			"h2>",
+			"h1>",
+			"</span>",
+			"<span data-book-fonte>",
+			"&#160;",
+			"<br>",
+			"",
+			"\\bar{x}",
+			"\\text{%}",
+			"</span>",
+			"<span data-book-fonte>",
+			"<img src=",
+			"alt=\"inline.4.4.svg\"",
+			"alt=\"inline.4.3.svg\"",
+			"alt=\"inline.4.2.svg\"",
+			"alt=\"inline.4.1.svg\"",
+			"alt=\"figura.4.1.svg\"",
+			"&#160;",
+			"<br>",
+			"</i></b>",
+			"<b><i>",
+			"",
+			"{\\text{Mário}}",
+			"\\text{Mário}",
+			"R$",
+			"\\bar{x}",
+			"R$",
+			"$$",
+			"R|S",
+			"<table class=\"tb\">\n	<tr>\n		<td class=\"tb-destaque\" rowspan=\"2\">\n			<p>Ordem da classe</p>\n		</td>\n		<td class=\"tb-titulo-tr\" colspan=\"2\">\n			<p><span>Classe de salários (R$ 1.000,00)</span></p>\n		</td>\n		<td class=\"tb-titulo-tr\" rowspan=\"2\">\n			<p>Frequências</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-tr-2\">\n			<p>Limite inferior</p>\n		</td>\n		<td class=\"tb-titulo-tr-2\">\n			<p><span>Limite superior</span></p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-td\">\n			<p>1º</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>1</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>2</p>\n		</td>\n		<td class=\"tb-td\">\n			<p><span>10</span></p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-td\">\n			<p>2º</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>2</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>3</p>\n		</td>\n		<td class=\"tb-td\">\n			<p><span>20</span></p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-td\">\n			<p>3º</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>3</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>4</p>\n		</td>\n		<td class=\"tb-td\">\n			<p><span>50</span></p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-td\">\n			<p>4º</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>4</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>5</p>\n		</td>\n		<td class=\"tb-td\">\n			<p><span>40</span></p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-td\">\n			<p>5º</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>5</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>6</p>\n		</td>\n		<td class=\"tb-td\">\n			<p><span>30</span></p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-td\">\n			<p>6º</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>6</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>7</p>\n		</td>\n		<td class=\"tb-td\">\n			<p><span>10</span></p>\n		</td>\n	</tr>\n</table>",
+			"<table class=\"tb\">\n	\n	<tr>\n		<td class=\"tb-titulo-tr\">\n			<p>Classes</p>\n		</td>\n		<td class=\"tb-titulo-tr\">\n			<p>Frequência<br>absoluta</p>\n		</td>\n		<td class=\"tb-titulo-tr\">\n			<p>Frequência<br>relativa</p>\n		</td>\n		<td class=\"tb-titulo-tr\">\n			<p>Frequência<br>relativa acumulada</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p><span>de 55 a 75</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>30</p>\n		</td>\n		<td class=\"tb-td\">\n			<p><span>0,15</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p>de 75 a 125</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>y</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p><span>de 125 a 200</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>100</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>x</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n	</tr>\n</table>",
+			"<table class=\"tb\">\n\n	<tr>\n		<td class=\"tb-titulo-tr\">\n			<p>Faixa salarial (R$)</p>\n		</td>\n		<td class=\"tb-titulo-tr\">\n			<p>Frequência absoluta</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p><span>Menor que 1.000,00</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>6</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p><span>Maior ou igual a 1.000,00 e menor que 2.000,00</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>7</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p><span>Maior ou igual a 2.000,00 e menor que 3.000,00</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>5</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p><span>Maior ou igual 3.000,00</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>2</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p><span>Total</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>20</p>\n		</td>\n	</tr>\n</table>",
+			"<table class=\"tb\">\n	<tr>\n		<td>&#160;</td>\n		<td class=\"tb-titulo-tr\">\n			<p>Empregados</p>\n		</td>\n		<td class=\"tb-titulo-tr\">\n			<p><span>Desempregados</span></p>\n		</td>\n		<td class=\"tb-titulo-tr\">\n			<p><strong>Total</strong></p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-td\">\n			<p>Homens</p>\n		</td>\n		<td class=\"tb-td\">\n			<p><span>33%</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>45%</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-td\">\n			<p><span>Mulheres</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>&#160;</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-result\">\n			<p><strong>Total</strong></p>\n		</td>\n		<td class=\"tb-titulo-result\">\n			<p>71%</p>\n		</td>\n		<td class=\"tb-titulo-result\">\n			<p>&#160;</p>\n		</td>\n		<td class=\"tb-titulo-result\">\n			<p>100%</p>\n		</td>\n	</tr>\n</table>",
+			"<table class=\"tb\">\n\n	<tr>\n		<td class=\"tb-titulo-tr\" rowspan=\"3\">\n			<p>Idade<br>(em anos)</p>\n		</td>\n		<td class=\"tb-titulo-tr\" colspan=\"4\">\n			<p><span>Número de alunos</span></p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-tr-2\" colspan=\"2\">\n			<p>Sexo feminino</p>\n		</td>\n		<td class=\"tb-titulo-tr-2\" colspan=\"2\">\n			<p>Sexo masculino</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-tr-3\">\n			<p>n</p>\n		</td>\n		<td class=\"tb-titulo-tr-3\">\n			<p>%</p>\n		</td>\n		<td class=\"tb-titulo-tr-3\">\n			<p>n</p>\n		</td>\n		<td class=\"tb-titulo-tr-3\">\n			<p>%</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p><span>16 – 20</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>?</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>P</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>10</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>20</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p><span>21 – 25</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>Q</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>40</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>?</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>R</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-td\">\n			<p><span>26 – 30</span></p>\n		</td>\n		<td class=\"tb-td\">\n			<p>S</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>?</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>?</p>\n		</td>\n		<td class=\"tb-td\">\n			<p>16</p>\n		</td>\n	</tr>\n	<tr>\n		<td class=\"tb-titulo-result\">\n			<p><span>Total</span></p>\n		</td>\n		<td class=\"tb-titulo-result\">\n			<p>70</p>\n		</td>\n		<td class=\"tb-titulo-result\">\n			<p>100</p>\n		</td>\n		<td class=\"tb-titulo-result\">\n			<p>50</p>\n		</td>\n		<td class=\"tb-titulo-result\">\n			<p><span>100</span></p>\n		</td>\n	</tr>\n</table>\n",
+			"$$",
+			"R$",
+			"$$"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "workflow.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".pat",
+				"php\\.paths.php"
+			],
+			[
+				".paths",
+				"php\\.paths.php"
+			],
+			[
+				"",
+				"php\\.functions.php"
+			],
+			[
+				"pat",
+				"php\\.paths.php"
+			],
+			[
+				".pa",
+				"php\\.pages.php"
+			],
+			[
+				"menu",
+				"contents\\app\\basic\\menu.html"
+			],
+			[
+				".",
+				"php\\.paths.php"
+			],
+			[
+				".pah",
+				"php\\.paths.php"
+			],
+			[
+				".pages",
+				"php\\.pages.php"
+			],
+			[
+				"tipo",
+				"style\\less\\app\\tipografia.less"
+			],
+			[
+				"icon",
+				"style\\less\\app\\icons.less"
+			],
+			[
+				"parse",
+				"php\\scripts\\parse.coffee"
+			],
+			[
+				"ou",
+				"style\\less\\app\\outros.less"
+			],
+			[
+				"app.le",
+				"style\\app.less"
+			],
+			[
+				"app",
+				"scripts\\app.coffee"
+			],
+			[
+				"config",
+				"php\\._.config.php"
+			],
+			[
+				"lesstipo",
+				"style\\less\\app\\tipografia.less"
+			],
+			[
+				"lesstype",
+				"style\\less\\bootstrap\\type.less"
+			],
+			[
+				".coff",
+				"php\\scripts\\parse.coffee"
+			],
+			[
+				"fun",
+				"php\\functions.php"
+			],
+			[
+				"index",
+				"php\\index.php"
+			],
+			[
+				"func",
+				"php\\functions.php"
+			],
+			[
+				"html",
+				"lab\\scripts\\htmlConstruct.coffee"
+			],
+			[
+				"inde",
+				"php\\index.php"
+			],
+			[
+				"outr",
+				"style\\less\\app\\outros.less"
+			],
+			[
+				"ourt",
+				"style\\less\\app\\outros.less"
+			],
+			[
+				"refe",
+				"sources\\referencias.src"
+			],
+			[
+				"nav",
+				"lab\\html_construct\\nav-bar.src"
+			],
+			[
+				"ccapa",
+				"sources\\capa.src"
+			],
+			[
+				"refere",
+				"sources\\referencias.src"
+			],
+			[
+				"nav-",
+				"style\\less\\app\\nav-bar.less"
+			],
+			[
+				"capa",
+				"sources\\capa.src"
+			],
+			[
+				"pages",
+				"style\\less\\app\\pages.less"
+			],
+			[
+				"cap",
+				"sources\\capa.src"
+			],
+			[
+				"outo",
+				"style\\less\\app\\outros.less"
+			],
+			[
+				"page",
+				"style\\less\\app\\pages.less"
+			],
+			[
+				"anima",
+				"style\\less\\app\\animate.less"
+			],
+			[
+				"varia",
+				"style\\less\\bootstrap\\variables.less"
+			],
+			[
+				"pa",
+				"style\\less\\app\\pages.less"
+			],
+			[
+				"cover",
+				"style\\less\\app\\cover.less"
+			],
+			[
+				"ani",
+				"style\\less\\app\\animate.less"
+			],
+			[
+				"gr",
+				"style\\less\\bootstrap\\mixins\\grid-framework.less"
+			],
+			[
+				"ca",
+				"style\\less\\app\\capitulo.less"
+			],
+			[
+				"glo",
+				"style\\less\\app\\globais.less"
+			],
+			[
+				"ap",
+				"scripts\\app.coffee"
+			],
+			[
+				"sum",
+				"style\\less\\app\\sumario.less"
+			],
+			[
+				"sumario",
+				"sources\\sumario.src"
+			],
+			[
+				"ico",
+				"style\\less\\app\\icons.less"
+			],
+			[
+				"map",
+				"sources\\map.src"
+			],
+			[
+				"t",
+				"style\\less\\app\\tipografia.less"
+			],
+			[
+				"capo",
+				"sources\\capitulo.content.src"
+			],
+			[
+				"capi",
+				"style\\less\\app\\capitulo.less"
+			],
+			[
+				"capituloconte",
+				"sources\\capitulo.content.src"
+			],
+			[
+				"capitulo",
+				"style\\less\\app\\capitulo.less"
+			],
+			[
+				"icons",
+				"style\\less\\app\\icons.less"
+			],
+			[
+				"vaira",
+				"style\\less\\bootstrap\\variables.less"
+			],
+			[
+				"capituloless",
+				"style\\less\\app\\capitulo.less"
+			],
+			[
+				"app.less",
+				"style\\app.less"
+			],
+			[
+				"gride",
+				"style\\less\\bootstrap\\mixins\\grid-framework.less"
+			],
+			[
+				"sourcecapitulo",
+				"sources\\capitulo.i.src"
+			],
+			[
+				"aprese",
+				"style\\less\\app\\apresentacao.less"
+			],
+			[
+				"aper",
+				"style\\less\\app\\apresentacao.less"
+			],
+			[
+				"ti",
+				"style\\less\\app\\tipografia.less"
+			],
+			[
+				"apre",
+				"sources\\apresentacao.video.src"
+			],
+			[
+				"apres",
+				"sources\\apresentacao.src"
+			],
+			[
+				"app.",
+				"scripts\\app.coffee"
+			],
+			[
+				"src",
+				"sources\\apresentacao.src"
+			],
+			[
+				"var",
+				"style\\less\\bootstrap\\variables.less"
+			],
+			[
+				"lesssumario",
+				"style\\less\\app\\sumario.less"
+			],
+			[
+				"lesspages",
+				"style\\less\\app\\pages.less"
+			],
+			[
+				"lessicon",
+				"style\\less\\app\\icons.less"
+			],
+			[
+				"tipogra",
+				"style\\less\\app\\tipografia.less"
+			],
+			[
+				"lessapp",
+				"style\\less\\app\\nav-bar.less"
+			],
+			[
+				"scri",
+				"sources\\scripts.src"
+			],
+			[
+				"anim",
+				"style\\less\\app\\animate.less"
+			],
+			[
+				"coverless",
+				"style\\less\\app\\cover.less"
+			],
+			[
+				"coffee",
+				"php\\scripts\\default.coffee"
+			],
+			[
+				"confi",
+				"php\\._.config.php"
+			],
+			[
+				"fnc",
+				"php\\functions.php"
+			],
+			[
+				"funct",
+				"_src\\functions.php"
+			],
+			[
+				"igno",
+				".gitignore"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"grid",
+				"style\\less\\bootstrap\\mixins\\grid.less"
+			],
+			[
+				"mixis",
+				"style\\less\\bootstrap\\mixins.less"
+			],
+			[
+				"boo",
+				"style\\bootstrap.less"
+			],
+			[
+				"less.inc",
+				"vendor\\php\\lessc.inc.php"
+			],
+			[
+				".config",
+				"admin\\._.config.php"
+			],
+			[
+				"vendor/php/",
+				"vendor\\php\\lessc.inc.php"
+			],
+			[
+				"admin/",
+				"admin\\index.php"
+			],
+			[
+				"suma",
+				"estrutura\\sumario.php"
+			],
+			[
+				"s",
+				"estrutura\\sumario.php"
+			],
+			[
+				"nav-bar",
+				"style\\less\\app\\nav-bar.less"
+			],
+			[
+				"outros",
+				"style\\less\\app\\outros.less"
+			],
+			[
+				"outro",
+				"style\\less\\app\\outros.less"
+			],
+			[
+				"perfec",
+				"vendor\\js\\perfect-scrollbar.jquery.js"
+			],
+			[
+				"per",
+				"vendor\\js\\perfect-scrollbar.js"
+			],
+			[
+				"perfe",
+				"_src\\Estudos\\perfect-scrollbar.url"
+			],
+			[
+				"tabe",
+				"style\\less\\app\\tabela.less"
+			],
+			[
+				"ty",
+				"style\\less\\bootstrap\\type.less"
+			],
+			[
+				"gri",
+				"style\\less\\bootstrap\\mixins\\grid-framework.less"
+			],
+			[
+				"vari",
+				"style\\less\\bootstrap\\variables.less"
+			],
+			[
+				"nav-ba",
+				"estrutura\\nav-bar.html"
+			],
+			[
+				"nav-b",
+				"style\\less\\app\\nav-bar.less"
+			],
+			[
+				"tab",
+				"style\\less\\app\\tabela.less"
+			],
+			[
+				"text",
+				"estrutura\\estrutura.text.html"
+			],
+			[
+				"estru",
+				"estrutura\\estrutura.full.html"
+			],
+			[
+				"conf",
+				"admin\\._.config.php"
+			],
+			[
+				"ut",
+				"style\\less\\bootstrap\\utilities.less"
+			],
+			[
+				"na",
+				"style\\less\\bootstrap\\navbar.less"
+			],
+			[
+				"out",
+				"style\\less\\app\\outros.less"
+			],
+			[
+				"con",
+				"style\\._.config.less"
+			],
+			[
+				"tool",
+				"style\\less\\bootstrap\\tooltip.less"
+			],
+			[
+				"slider",
+				"style\\less\\bootstrap\\slider\\rules.less"
+			],
+			[
+				"g",
+				"style\\less\\app\\globais.less"
+			],
+			[
+				"appless",
+				"style\\less\\app\\tipografia.less"
+			],
+			[
+				"va",
+				"style\\less\\bootstrap\\variables.less"
+			],
+			[
+				".confi",
+				"admin\\._.config.php"
+			],
+			[
+				"lesscover",
+				"style\\less\\app\\cover.less"
+			],
+			[
+				"estrutura",
+				"estrutura\\estrutura.text.html"
+			],
+			[
+				"code",
+				"assets\\style\\less\\bootstrap\\code.less"
+			],
+			[
+				"sca",
+				"assets\\style\\less\\bootstrap\\scaffolding.less"
+			],
+			[
+				"gly",
+				"assets\\style\\less\\bootstrap\\glyphicons.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\projeto\\web\\livrodigital\\_src\\SublimeText\\livrodigitalpro.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

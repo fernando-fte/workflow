@@ -30,11 +30,15 @@
 	$settings['dir']['app-block'] = $settings['dir']['app'].'/blocks'; // Blocos de paginas
 	$settings['dir']['app-basic'] = $settings['dir']['app'].'/basic'; // Elementos comuns
 	$settings['dir']['app-user'] = $settings['dir']['app'].'/user'; // Elementos de usuarios
-	$settings['dir']['teste'] = $settings['dir']['contents'].'/teste'; // Elementos teste
+	$settings['dir']['app-teste'] = $settings['dir']['contents'].'/teste'; // Elementos teste
 
 
 	# biblioteca de arquivos
 	$settings['dir']['library'] = $settings['wwwroot'].'/library'; // Local base de todos os dados
+
+	# Rota de pastas
+	$settings['dir']['page-teste'] = $settings['wwwroot'].'/teste'; // Local base de todos os dados
+	$settings['dir']['page-disciplinas'] = $settings['wwwroot'].'/disciplina'; // Local base de todos os dados
 
 
 	# # # Configura path arquivos e framework

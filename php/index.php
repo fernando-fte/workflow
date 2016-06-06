@@ -9,4 +9,7 @@
 	// Inclui configurações para xml
 	include 'functions.php';
 
+	// Inclui disciplinas
+	include 'disciplinas.php';
+
 ?>
