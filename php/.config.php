@@ -35,22 +35,25 @@
 	# # # / VALIDA SE FOI RECEBIDO UM CONJUNTO DE QUERY / # # #
 
 
-	# # # /CONFIGURA SELETORES PADRÃO PARA O BANCO DE DADOS / # # # #
-	$settings['select_db_list'] = array(
-		0 => array('id', 'sku'),
-		1 => array('values', 'data', 'contents'),
-		2 => array('secao', 'conteudo'),
-		3 => array('grupo', 'instituicao'),
-		4 => array('classe', 'projeto'),
-		5 => array('tipo', 'nome'),
-		6 => array('item', 'ordem'),
+	# # # /CONFIGURA DADOS PADRAO PARA O BANCO DE DADOS / # # # #
+
+	# # # # Configura seletores de acordo com a tabela
+	$settings['banco']['table'] = array(
+		'base' => array(
+			0 => array('id', 'sku'),
+			1 => array('values', 'data', 'contents'),
+			2 => array('secao', 'conteudo'),
+			3 => array('grupo', 'instituicao'),
+			4 => array('classe', 'projeto'),
+			5 => array('tipo', 'nome'),
+			6 => array('item', 'ordem')
+		)
 	);
-	# # # /CONFIGURA SELETORES PADRÃO PARA O BANCO DE DADOS / # # # #
 
+	# # # # Configura reserva de dados selecionados
+	$settings['banco']['reserve'] = array();
 
-	# # # / CONFIGURA ARRAY EM BANCO / # # # #
-	$settings['banco'] = array();
-	# # # / CONFIGURA ARRAY EM BANCO / # # # #
+	# # # /CONFIGURA DADOS PADRAO PARA O BANCO DE DADOS / # # # #
 
 
 	// Config page default

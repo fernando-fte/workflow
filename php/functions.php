@@ -1,9 +1,10 @@
 <?php 
 	# # Funcão para tratar os seletores
-	function normalize_select($post, $method) {
+	function normalize_select($post, $table, $method) {
 		/*// Recebe
 		 // $post => array => "Valores de seleção do banco para normalização"
 		 // $metho => boolean => true "para limpar tudo" 
+		 // $table => string "Nome da tabela"
 		//*/
 
 		# # # DECLARA INSTANCIAS DO RESULTADO
@@ -19,15 +20,18 @@
 		# # Reserva os dados de post
 		$result['done'] = $post;
 
+		# # Se não foi recebido tabela define tabela como base
+		if ($table == false) { $table = 'base'; }
+
 		# # Seleciona cada item do post
 		$me = array_keys($post);
 		for ($i=0; $i < count($me); $i++) { 
 
 			# # # Seleciona cada item da matriz
-			for ($u=0; $u < count($GLOBALS['settings']['select_db_list']); $u++) { 
+			for ($u=0; $u < count($GLOBALS['settings']['banco']['table'][$table]); $u++) { 
 
 				# # # # Valida se o item existe na solicitação
-				if (gettype(array_search($me[$i], $GLOBALS['settings']['select_db_list'][$u])) != 'boolean') {
+				if (gettype(array_search($me[$i], $GLOBALS['settings']['banco']['table'][$table][$u])) != 'boolean') {
 
 					# # # # Remove valor de $result['done']
 					unset($result['done'][$me[$i]]);

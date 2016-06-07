@@ -21,13 +21,12 @@
 		}
 	}
 */
-$temp = array(
+$temp['base'] = array(
 	'conteudo' => 'disciplina',
 	'instituicao' => 'unipar',
 	'projeto' => 'livro-digital-pos',
 	'nome' => 'Nome',
 	'item' => 0,
-	'id' => '00000000'
 );
 
 $temp['disciplina'] = array (
@@ -72,87 +71,168 @@ $temp['values'] = array(
 
 
 // print_r($temp['dados']);
-	# # # Função para criar novo seletor
-	function create_selects($post, $func) {
-		// $post = Recebe conjunto de valores
+# # # Função para criar novo seletor
+function create_selects($post, $func) {
+	// $post = Recebe conjunto de valores
 
-		# # # DECLARA INSTANCIAS DO RESULTADO
-		$result = array(
-			'success' => null,
-			'erro' => null,
-			'this' => 'F::create_selects',
-			'done' => null,
-			'process' => array (
-				'novo' => true,
-				'path no post' => array ('success' => null)
-			),
-		);
+	# # # DECLARA INSTANCIAS DO RESULTADO
+	$result = array(
+		'success' => null,
+		'erro' => null,
+		'this' => 'F::create_selects',
+		'done' => null,
+		'process' => array (
+			'novo' => true,
+		),
+	);
 
 
-		# # Seletor simples
-		$reserve['select'] = array('type' => 'select','table' => null,'where' => array(0 => null),'regra' => array('limit' => 1),'return' => array('1'));
+	# # Seletor simples
+	$reserve['select'] = array('type' => 'select','table' => null,'where' => array(0 => null),'regra' => array('limit' => 1),'return' => array('1'));
 
-		$me = normalize_select($post, true)['done'];
+	# # # Confere se existe tabela
+	if (array_key_exists('table', $post)) {$table = $post['table'];}
+	# # # Define a tabela como base
+	else {$table = 'base';}
 
-		# # # Remove dados dos seletores
-		if (array_key_exists(1, $me)) { unset($me[1]);}
+	# # # # 
 
-		# # # Confere se existe tabela
-		if (array_key_exists('table', $post)) {$me['table'] = $post['table'];}
-		# # # Define a tabela como base
-		else {$me['table'] = 'base';}
+	$me = normalize_select($post, $table, true)['done'];
 
-		# # # Valida se existe sku
-		if (array_key_exists(0, $me)) { 
+	# # # Remove dados dos seletores
+	if (array_key_exists(1, $me)) { unset($me[1]);}
 
-			# # # # Valida se existe esse id
-			$reserve['select']['where'] = array(0 => $me[0]);
-			$reserve['select']['table'] = $me['table'];
 
-			$reserve['result'] = select($reserve['select'])['result'];
+	# # # Valida se existe sku
+	if (array_key_exists(0, $me)) { 
 
-			if ($reserve['result']['lenght'] > 0) {
-				
-				# # # Define novo como falso
-				$result['process']['novo'] = false;
+		# # # # Valida se existe esse id
+		$reserve['select']['where'] = array(0 => $me[0]);
+		$reserve['select']['table'] = $table;
 
-				# TODO: Cria função para tratar caso exista
-			}
+		$reserve['result'] = select($reserve['select'])['result'];
 
-			# apaga result
-			unset($reserve['result']);
+		if ($reserve['result']['lenght'] > 0) {
+			
+			# # # Define novo como falso
+			$result['process']['novo'] = false;
+
+			# TODO: Reserva os dados em "$GLOBALS['settings']['banco']['reserve']"
+
+			# TODO: Cria função para tratar caso exista
 		}
 
-		# # # Inicia tratamento de um novo item no banco
-		if ($result['process']['novo'] == true) {
-
-			# # define sku em 0 caso ele nao tenha sido criado
-			if (!array_key_exists(0, $me)) {  $me[0] = new_sku($me)['done']; }
-
-			# # # Define tabela
-			$result['done']['._.selectors']['table'] = $me['table'];
-
-			# # $result['done']['._.selects'] = $me;
-			$temp = array_keys($GLOBALS['settings']['select_db_list']);
-			for ($i=0; $i < count($temp); $i++) { 
-
-				# # #  Caso o seletor seja diferente de ID e Values em 0 e 1
-				if ($temp[$i] != 1) {
-
-					# # # Valida se não foi declarado o seletor, define como null
-					if (!array_key_exists($i, $me)) { $me[$i] = ($i == (count($temp) - 1)? 0:'@null'); }
-
-					# # # # Reserva os dado em done
-					$result['done']['._.selectors'][$i] = $me[$i];
-				}
-			}
-			unset($i, $temp);
-		}
-
-		# # # Retorna
-		return $result;
+		# apaga result
+		unset($reserve['result']);
 	}
 
+	# # # Inicia tratamento de um novo item no banco
+	if ($result['process']['novo'] == true) {
 
+		# # define sku em 0 caso ele nao tenha sido criado
+		if (!array_key_exists(0, $me)) {  $me[0] = new_sku($me)['done']; }
+
+		# # # Define tabela
+		$result['done']['._.selectors']['table'] = $table;
+
+		# # $result['done']['._.selects'] = $me;
+		$temp = array_keys($GLOBALS['settings']['banco']['table'][$table]);
+		for ($i=0; $i < count($temp); $i++) { 
+
+			# # #  Caso o seletor seja diferente de ID e Values em 0 e 1
+			if ($temp[$i] != 1) {
+
+				# # # Valida se não foi declarado o seletor, define como null
+				if (!array_key_exists($i, $me)) { $me[$i] = ($i == (count($temp) - 1)? 0:'@null'); }
+
+				# # # # Reserva os dado em done
+				$result['done']['._.selectors'][$i] = $me[$i];
+			}
+		}
+		unset($i, $temp);
+	}
+
+	# # # Retorna
+	return $result;
+}
+
+# # # Função para criar settings e iniciar o seletor
+function create_settings($post, $func){
+
+	# # # DECLARA INSTANCIAS DO RESULTADO
+	$result = array(
+		'success' => null,
+		'erro' => null,
+		'this' => 'F::create_settings',
+		'done' => null,
+		'process' => array (
+			'novo' => true,
+		),
+	);
+
+	# # # Adiciona os seletores
+	$result['done']['._.settings'] = create_selects($post)['done'];
+
+	# # # Verifica se o valor foi encontrado no banco e foi reservado // Depende de create_selects($post)
+	if (array_key_exists($result['done']['._.settings']['._.selectors'][0], $GLOBALS['settings']['banco']['reserve'])) {
+
+		# # # # Define novo como falso
+		$result['process']['novo'] = false;
+		$result['done']['._.settings']['._.history']['modify'][date('Y-m-d H:i:s ').microtime()] = '#idhistory';
+	}
+
+	# # # Inicia tratamento caso seja novo
+	if ($result['process']['novo'] == true) {
+
+		# # # # Separa data do histórico
+		$result['done']['._.settings']['._.history']['create'] = date('Y-m-d H:i:s ').microtime();
+	}
+
+	# # # Retorna
+	return $result;
+}
+
+# # # Função para criar valores
+function create_disciplina($post, $func) {
+	# # # DECLARA INSTANCIAS DO RESULTADO
+	$result = array(
+		'success' => null,
+		'erro' => null,
+		'this' => 'F::create_disciplina',
+		'done' => null,
+		'process' => array (
+			'novo' => true,
+		),
+	);
+
+
+	// # # # Define modelo basico
+	// $reserve = array(
+	// 	'disciplina' => $post['']
+	// ),
+
+	# # # Monta dados dos da disciplina
+	print_r($post);
+
+	# # # Retorna
+	return $result;
+}
+
+
+for ($i=0; $i < count($temp['disciplina']); $i++) { 
+	# Itens basicos
+	$temp['base'] = array(
+		'conteudo' => 'disciplina',
+		'instituicao' => 'unipar',
+		'projeto' => 'livro-digital-pos',
+		'disciplina' => $temp['disciplina'][$i],
+		'item' => 0,
+	);
+	print_r($temp['base']);
+}
+
+// create_settings($temp);
+// print_r(json_encode(create_settings($temp)['done']));
+// print_r(create_settings($temp)['done']);
 
 ?>

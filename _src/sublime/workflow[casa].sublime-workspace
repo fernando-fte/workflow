@@ -1,0 +1,981 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"arry",
+				"array"
+			],
+			[
+				"suce",
+				"success"
+			],
+			[
+				"SETT",
+				"settings"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"bo",
+				"body_end"
+			],
+			[
+				"const",
+				"construct"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"tem",
+				"temp"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"is",
+				"is_a"
+			],
+			[
+				"remo",
+				"remove"
+			],
+			[
+				"b",
+				"book"
+			],
+			[
+				"dom",
+				"dom_import_simplexml"
+			],
+			[
+				"new",
+				"news"
+			],
+			[
+				"simple",
+				"simplexml_load_file"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"xml",
+				"xmlDoc"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"s",
+				"submt"
+			],
+			[
+				"createSer",
+				"https.createServer(opts, requestListener);"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"pr",
+				"process"
+			],
+			[
+				"pu",
+				"push"
+			],
+			[
+				"pro",
+				"proccess"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"de",
+				"delay"
+			],
+			[
+				"app",
+				"app-display"
+			],
+			[
+				"w",
+				"while"
+			],
+			[
+				"app-cor-",
+				"app-cor-preto-0"
+			],
+			[
+				"cor",
+				"color"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"att",
+				"attr_html"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"c",
+				"ceil(number)"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"app-pa",
+				"app-cor-padrao"
+			],
+			[
+				"app-cor-padr",
+				"app-cor-padrao-fraco"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"app-cor",
+				"app-cor-azul"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"array_k",
+				"array_keys"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"valida",
+				"valida_parametro"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"e",
+				"empty"
+			],
+			[
+				"con",
+				"count"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"usn",
+				"unset"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"read",
+				"readfile"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"lis",
+				"lista"
+			],
+			[
+				"get",
+				"getmygid"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remoc",
+				"Package Control: Remove Package"
+			],
+			[
+				"git: s",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 144.0,
+		"history":
+		[
+			"git",
+			"cls",
+			"git",
+			"node -v",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/fernando.fte/Projetos/web/workflow",
+		"/D/fernando.fte/Projetos/web/workflow/php",
+		"/D/fernando.fte/Projetos/web/workflow/php/vendor"
+	],
+	"file_history":
+	[
+		"/D/fernando.fte/Projetos/web/workflow/php/disciplinas.php",
+		"/D/fernando.fte/Projetos/web/workflow/php/.config.php",
+		"/D/fernando.fte/Projetos/web/workflow/php/functions.php",
+		"/D/fernando.fte/Projetos/web/workflow/_src/sublime/workflow[casa].sublime-project",
+		"/D/fernando.fte/Projetos/web/workflow/_src/sublime/workflow - Copia.sublime-project",
+		"/C/Users/FernandoTruculo/Desktop/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/psicologia-da-educacao-fundamentos-para-a-aprendizagem-e-o-desenvolvimento-humano.html",
+		"/C/Users/FernandoTruculo/Desktop/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/Processamento/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano [marcacao].html",
+		"/C/Users/FernandoTruculo/Desktop/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/query_fonte_online.txt",
+		"/C/Users/FernandoTruculo/Desktop/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/query_fonte_online",
+		"/C/Users/FernandoTruculo/AppData/Roaming/Adobe/InDesign/Version 8.0/en_US/Find-Change Queries/Text/sub.xml",
+		"/C/Users/FernandoTruculo/AppData/Roaming/Adobe/InDesign/Version 8.0/en_US/Find-Change Queries/Text/negrito.xml",
+		"/C/Users/FernandoTruculo/AppData/Roaming/Adobe/InDesign/Version 8.0/en_US/Find-Change Queries/Text/negrito-italico.xml",
+		"/C/Users/FernandoTruculo/AppData/Roaming/Adobe/InDesign/Version 8.0/en_US/Find-Change Queries/Text/italico.xml",
+		"/C/Users/FernandoTruculo/AppData/Roaming/Adobe/InDesign/Version 8.0/en_US/Workspaces/Livro Digital.xml",
+		"/D/fernando.fte/Projetos/web/livrodigital/vjdo1rpe.fqf.txt",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/app/blocks/livro.lista.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/app/basic/menu.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/php/.pages.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/app/headers/livro.new.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/app/blocks/livro.form.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/app/blocks/livro.list.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/app/headers/autor.edit.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/php/.paths.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/app/heades/autor.new.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/app/blocks/autor.form.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/_src/jQuery-File-Upload-9.12.3/js/main.js",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/app/blocks/autor.list.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/script/app.coffee",
+		"/D/fernando.fte/Projetos/web/livrodigital/style/app.less",
+		"/D/fernando.fte/Projetos/web/livrodigital/php/.functions.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/style/app/pages.less",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/form/menu.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/home/basic/menu.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/php/.config.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/_src/roteiro.txt",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/style/variables.less",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/style/bootstrap/scaffolding.less",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/style/bootstrap/badges.less",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/form/list.autor.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/php/pages.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/index.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/form/list.livro.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/form/form.menu.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/form/form.basic.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/php/vendor/phpSelectSQL.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/testes/index.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/index.html",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/scripts/app.coffee",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/style/app/sumario.less",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/library/figura.4.1.svg",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/style/app.css",
+		"/D/fernando.fte/Projetos/web/livrodigital/aplicativos/vgconsultoria/style/app.less",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/_src/cmd.start.txt",
+		"/D/fernando.fte/Projetos/web/livrodigital/contents/formularios/form.basic.xml",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/php/functions.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/teste/teste_xml.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/php/index.php",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/php/index.php",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/php/parse.book.php",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/php/login.php",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/php/teste.producao.php",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/php/._.config.php",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/php/add-livro-info.php",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/_src/Matriz/index.php",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/_src/Matriz/fromulario.html",
+		"/D/vgconsutoria/posto_[note_fte]/Livro Digital/Projeto/Desenvolvimento/_src/functions.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/php/xml/index.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/books/index.xml",
+		"/D/fernando.fte/Projetos/web/laboratorio/xmlPhpJs/index.php",
+		"/D/fernando.fte/Projetos/web/laboratorio/xmlPhpJs/simple_xml.xml",
+		"/D/fernando.fte/Projetos/web/livrodigital/php/xmlparse.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/teste/teste_xml.2.php",
+		"/D/fernando.fte/Projetos/web/livrodigital/_src/SublimeText/livrodigitalpro.sublime-project",
+		"/D/fernando.fte/Projetos/web/laboratorio/xmlPhpJs/testes/xmlDom1.php",
+		"/D/fernando.fte/Projetos/web/area51/matematica/matematic.tex",
+		"/D/fernando.fte/Projetos/web/area51/matematica/matematica.html",
+		"/D/fernando.fte/Projetos/web/area51/matematica/bioetica.xml",
+		"/D/fernando.fte/Projetos/web/area51/matematica/bioetica.mhtml",
+		"/D/fernando.fte/Projetos/web/area51/matematica/bioetica.rtf",
+		"/C/Users/FernandoTruculo/AppData/Local/Temp/fz3temp-1/custom.js",
+		"/C/Users/FernandoTruculo/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/FernandoTruculo/AppData/Local/Temp/fz3temp-1/index.php",
+		"/D/fernando.fte/Projetos/web/area51/post_ajax/send.php",
+		"/D/fernando.fte/Projetos/web/area51/post_ajax/vendor/custom.js",
+		"/D/fernando.fte/Projetos/web/area51/post_ajax/index.html",
+		"/D/fernando.fte/Projetos/web/area51/post_ajax/vendor/custom.coffee",
+		"/D/fernando.fte/Projetos/web/htmlGetSQL/assets/library/coffee-script/pull.coffee",
+		"/D/fernando.fte/Projetos/web/htmlGetSQL/assets/library/coffee-script/submit.php.coffee",
+		"/D/fernando.fte/Projetos/web/htmlGetSQL/assets/library/coffee-script/push.coffee",
+		"/D/fernando.fte/Projetos/web/htmlGetSQL/painel.html",
+		"/D/fernando.fte/Projetos/web/area51/post_ajax/scrips/custom.coffee",
+		"/D/fernando.fte/Projetos/web/vivianegoi.com.br/index.html",
+		"/C/Users/FernandoTruculo/Desktop/modelo.js",
+		"/D/fernando.fte/Projetos/web/htmlGetSQL/index.html",
+		"/D/fernando.fte/Projetos/web/Laboratorio/waibtec/controllers/home.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/waibtec/routes/home.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/waibtec/views/home/index.jade",
+		"/D/fernando.fte/Projetos/web/Laboratorio/waibtec/app.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/waibtec/package.json",
+		"/D/fernando.fte/Projetos/web/Laboratorio/waibtec/views/teste.jade",
+		"/D/fernando.fte/Projetos/web/Laboratorio/waibtec/routes/index.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/waibtec/bin/www",
+		"/D/fernando.fte/Projetos/web/Laboratorio/package.json",
+		"/D/fernando.fte/Projetos/web/Laboratorio/aula6.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/module/mod2.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/module/mod1.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/aula5.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/aula4.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/arquivos/mod2.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/arquivos/contatos.html",
+		"/D/fernando.fte/Projetos/web/Laboratorio/arquivos/index.html",
+		"/D/fernando.fte/Projetos/web/Laboratorio/aula3a.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/arquivos/clubes.txt",
+		"/D/fernando.fte/Projetos/web/Laboratorio/aula1.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/aula3.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/arquivos/logs.txt",
+		"/D/fernando.fte/Projetos/web/Laboratorio/arquivos/clibes.txt",
+		"/D/fernando.fte/Projetos/web/Laboratorio/aula2.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/nodetest1/app.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/nodetest2/package.json",
+		"/D/fernando.fte/Projetos/web/Laboratorio/nodetest1/routes/index.js",
+		"/D/fernando.fte/Projetos/web/Laboratorio/nodetest1/package.json",
+		"/C/Users/FernandoTruculo/Downloads/Fundamentos Psicopedagógicos da Aprendizagem.html",
+		"/C/Users/FernandoTruculo/Desktop/book.html",
+		"/D/fernando.fte/Projetos/web/Laboratorio/app.js",
+		"/D/fernando.fte/Projetos/web/livroDigital/php/scripts/app.coffee",
+		"/D/fernando.fte/Projetos/web/livroDigital/php/index.php",
+		"/D/fernando.fte/Projetos/web/livroDigital/lab/htmlConstruct.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\fernando.fte\\Projetos\\web\\livrodigital\\aplicativos\\vgconsultoria\\style",
+			"D:\\fernando.fte\\Projetos\\web\\livrodigital",
+			"D:\\fernando.fte\\Projetos\\web\\livrodigital\\aplicativos\\vgconsultoria\\style",
+			"D:\\fernando.fte\\Projetos\\web\\livroDigital\\style\\less\\bootstrap"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$GLOBALS['settings']['banco']['table'][$table]",
+			"$me['table']",
+			"$post",
+			"\\",
+			"<span data-book-atividade-alternativa>",
+			"<div data-book-atividade-feed>",
+			"secao_titulo>",
+			"secao_p>",
+			"------------<article>",
+			"<h5>",
+			"<h6",
+			"estágio</h5>",
+			"<h1>",
+			"--------<article>",
+			"<h1>",
+			"<fonte><span><etiqueta>Fonte:</etiqueta></span> ",
+			"<fonte>",
+			"<img",
+			"<figure><span><img src=\"Psicologia-da-Educação-Fundamentos-para-a-Aprendizagem-e-o-Desenvolvimento-Huma[marcacao]-web-resources/image/inline.4.1.jpg\" alt=\"inline.4.1.jpg\" /></span>&#160;</figure>",
+			"masculino para a menina, conforme a Fase Fálica de Freud:",
+			"<figure><span><img src=\"Psicologia-da-Educação-Fundamentos-para-a-Aprendizagem-e-o-Desenvolvimento-Huma[marcacao]-web-resources/image/23600.png\" alt=\"23600.png\" /></span>&#160;</figure>",
+			"<figure>&#160;</figure>",
+			"<figure>",
+			" class=\"letra\"",
+			"Como aparelho psíquico, com funções fundamentais na consciência, pois se relaciona com a realidade do mundo exterior, ou seja, a percepção, o pensamento, a memória, a atenção, a antecipação, a discriminação, o juízo crítico e a ação motora",
+			"<ol>",
+			"<ul>",
+			"<ol>",
+			"\n\n\n		<div data-book-atividade>",
+			"<atividade_fim>",
+			"</feed_true>",
+			"</feed_false>",
+			"</alternativa>",
+			"</alternativa_true>",
+			"<atividade_fim>",
+			"</alternativa_true>",
+			"<atividade_fim>",
+			"</feed_[a-z]*>",
+			"</alternativa[_true]?>",
+			"		<feed_true>",
+			"		<alternativa_true>",
+			"		<feed_false>",
+			"		<alternativa>",
+			"</questao>",
+			"		<questao>",
+			"<questao>",
+			"<secao_cabeca>",
+			"<div data-book-section=\"3\">",
+			"<secao_p><strong>Editora</strong><span><strong>:</strong></span> I",
+			"<div data-book-section=\"3\">",
+			"<secao_p><strong>Editora:</strong>",
+			"<div data-book-section=\"3\">",
+			"<secao_p><strong>Nome do livro:</strong> ",
+			"<p data-book-section-label=\"ISBN\">",
+			"<p data-book-section-label=\"Autor\"></p>",
+			"<p data-book-section-label=\"Editora\">",
+			"<secao_p><span><strong>ISBN:</strong></span> ",
+			"<secao_p><span><strong>Editora:</strong></span> ",
+			"<secao_p><span><strong>Autor:</strong></span> ",
+			"<secao_p><span><strong>Nome do livro:</strong></span> ",
+			"<secao_cabeca>Indicação de Leitura</secao_cabeca>",
+			" class=\"corpo-secao-lista-bullets\"",
+			"<div data-book-section=\"2\">",
+			"<secao_cabeca>Reflita</secao_cabeca>",
+			"<div data-book-section=\"1\">",
+			"<br>",
+			"<blockquote>",
+			"<secao_cabeca>Fique por dentro</secao_cabeca>",
+			"<secao_cabeca>Fica por Dentro</secao_cabeca>",
+			"<secao_cabeca>",
+			"<strong>",
+			"<h1>",
+			"<div data-book-unidade=\"",
+			"<div class=\"livro-unidade\">",
+			"-autor=\"1",
+			"<unidade_titulo>",
+			"introducao_p>",
+			"<referencia_link><a href=\"",
+			"<referencias_p>",
+			"<span data-book-autor-nome>",
+			"	<autor_info>",
+			"<autor_titulacao>",
+			"<autor_nome>",
+			"<!",
+			"Fórum",
+			"</fonte_inline>",
+			"<fonte_inline>",
+			"	&#160;",
+			"<u>&#160;</u>|<strong>&#160;</strong>|<span>&#160;</span>",
+			"</bi>",
+			"<bi>",
+			"<[/]*x>|<strong>[ ]*</strong>|<span>[ ]*</span>|<i>[ ]*</i>|<b>[ ]*</b>|<u>[ ]*</u>|<a id=\"[\\S*]*\" />",
+			"[ ]*class=\"[ ]*\"|[0-9*]*[a-z*]*.&#9;",
+			"[ ]*para-style-override-[0-9*]*|[ ]*char-style-override-[0-9*]*|[ ]*frame-[0-9*]*|[ ]*id=\"table-[0-9*]*\"|[ ]*Row-Column-[0-9*]*|[ ]*xml:lang=\"[\\S*]*\"|[ ]*No-Paragraph-Style|[ ]*No-",
+			"ã",
+			"ç",
+			" ",
+			"[\\(]?Piaget[ , ]?[\\(]?[0-9]*[a-z]?[, p. [0-9]*]?\\)",
+			"[\\(]?PIAGET,[\\(]?[0-9]*[a]?[, p. [0-9]*]?\\)",
+			"[\\(]?PIAGET[\\(]?[0-9]*[a]?[, p. [0-9]*]?\\)",
+			"[\\(]?var [\\(]?[0-9]*[a]?[, p. [0-9]*]?\\)",
+			"78",
+			"style",
+			"livrosedit",
+			"livros",
+			"list",
+			"new",
+			"    ",
+			"   ",
+			"  ",
+			"btn ",
+			"input-group\">",
+			"button",
+			"xs",
+			"btn ",
+			"btn",
+			"btn btn",
+			"label label-danger",
+			"<!-- /.col-lg-6 -->",
+			"<!-- /input-group -->",
+			"<?",
+			"app-vg",
+			"'app'",
+			"app-vg",
+			"app-vg-",
+			"$settings['dir']['app-vg']",
+			"$settings['dir']['app']",
+			"publish"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</span>",
+			"<span data-book-fonte>",
+			"&#160;",
+			"</i></b>",
+			"<b><i>",
+			"",
+			"short",
+			"[",
+			"]]",
+			"[$",
+			"']",
+			"['",
+			"success",
+			"http://mantis.acsor.com.br:83/",
+			" ",
+			"#BCC4D8",
+			"#2B186F",
+			"#7A8CBF",
+			"#FFFFFF",
+			"#2B186F",
+			"#667BB4",
+			"\"Overlock\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "workflow[casa].sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".con",
+				"php\\.config.php"
+			],
+			[
+				".cofi",
+				"php\\.config.php"
+			],
+			[
+				".pages",
+				"php\\.pages.php"
+			],
+			[
+				".",
+				"php\\.pages.php"
+			],
+			[
+				"pah",
+				"php\\.paths.php"
+			],
+			[
+				".pa",
+				"php\\.pages.php"
+			],
+			[
+				".p",
+				"php\\.pages.php"
+			],
+			[
+				".page",
+				"php\\.pages.php"
+			],
+			[
+				"app.l",
+				"style\\app.less"
+			],
+			[
+				".func",
+				"php\\.functions.php"
+			],
+			[
+				"pages",
+				"aplicativos\\vgconsultoria\\style\\app\\pages.less"
+			],
+			[
+				"men",
+				"contents\\form\\menu.html"
+			],
+			[
+				".path",
+				"php\\.paths.php"
+			],
+			[
+				"conf",
+				"php\\.config.php"
+			],
+			[
+				"confi",
+				"php\\.config.php"
+			],
+			[
+				"lesspage",
+				"style\\less\\app\\pages.less"
+			],
+			[
+				"vendor",
+				"scripts\\vendors.js"
+			],
+			[
+				"app",
+				"scripts\\app.coffee"
+			],
+			[
+				"src",
+				"sources\\capitulo.content.src"
+			],
+			[
+				"app.js",
+				"scripts\\app.js"
+			],
+			[
+				"app.c",
+				"scripts\\app.coffee"
+			],
+			[
+				"config",
+				"style\\._.config.less"
+			],
+			[
+				"cover",
+				"style\\less\\app\\cover.less"
+			],
+			[
+				"sumaro",
+				"style\\less\\app\\sumario.less"
+			],
+			[
+				"map",
+				"sources\\map.src"
+			],
+			[
+				"func",
+				"php\\functions.php"
+			],
+			[
+				"index",
+				"sources\\index.project.src"
+			],
+			[
+				"con",
+				"php\\._.config.php"
+			],
+			[
+				"sourcecapa",
+				"sources\\capa.src"
+			],
+			[
+				"scr",
+				"sources\\scripts.src"
+			],
+			[
+				"capa",
+				"sources\\capa.src"
+			],
+			[
+				"pa",
+				"style\\less\\app\\pages.less"
+			],
+			[
+				"hea",
+				"sources\\header.src"
+			],
+			[
+				"ma",
+				"sources\\map.src"
+			],
+			[
+				"head",
+				"sources\\header.src"
+			],
+			[
+				"out",
+				"style\\less\\app\\outros.less"
+			],
+			[
+				"nav",
+				"estrutura\\nav-bar.html"
+			],
+			[
+				"varia",
+				"style\\less\\bootstrap\\variables.less"
+			],
+			[
+				"gr",
+				"style\\less\\bootstrap\\grid.less"
+			],
+			[
+				"var",
+				"style\\less\\bootstrap\\variables.less"
+			],
+			[
+				"u",
+				"style\\less\\bootstrap\\utilities.less"
+			],
+			[
+				"glo",
+				"style\\less\\app\\globais.less"
+			],
+			[
+				"ty",
+				"style\\less\\bootstrap\\type.less"
+			],
+			[
+				"gri",
+				"style\\less\\bootstrap\\mixins\\grid-framework.less"
+			],
+			[
+				"outr",
+				"style\\less\\app\\outros.less"
+			],
+			[
+				"ut",
+				"style\\less\\bootstrap\\utilities.less"
+			],
+			[
+				"mi",
+				"style\\less\\bootstrap\\mixins.less"
+			],
+			[
+				"test",
+				"estrutura\\test.html"
+			],
+			[
+				"globais",
+				"style\\less\\app\\globais.less"
+			],
+			[
+				"tes",
+				"estrutura\\test.html"
+			],
+			[
+				"fra",
+				"style\\less\\bootstrap\\mixins\\grid-framework.less"
+			],
+			[
+				"g",
+				"style\\less\\bootstrap\\grid.less"
+			],
+			[
+				"outros",
+				"style\\less\\app\\outros.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
