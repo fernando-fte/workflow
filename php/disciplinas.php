@@ -193,12 +193,12 @@ function create_settings($post, $func){
 }
 
 # # # Função para criar valores
-function create_disciplina($post, $func) {
+function monta_data($post, $func) {
 	# # # DECLARA INSTANCIAS DO RESULTADO
 	$result = array(
 		'success' => null,
 		'erro' => null,
-		'this' => 'F::create_disciplina',
+		'this' => 'F::monta_data',
 		'done' => null,
 		'process' => array (
 			'novo' => true,
@@ -206,10 +206,13 @@ function create_disciplina($post, $func) {
 	);
 
 
-	// # # # Define modelo basico
-	// $reserve = array(
-	// 	'disciplina' => $post['']
-	// ),
+	# # # Define modelo basico
+	$reserve = array(
+		'disciplina' => $post['disciplina'],
+		'nomes' => array(
+			'normal' => $post['disciplina']
+		),
+	);
 
 	# # # Monta dados dos da disciplina
 	print_r($post);
@@ -219,20 +222,33 @@ function create_disciplina($post, $func) {
 }
 
 
-for ($i=0; $i < count($temp['disciplina']); $i++) { 
+for ($i=0; $i < 1; $i++) { 
 	# Itens basicos
-	$temp['base'] = array(
+	$temp['form'] = array(
 		'conteudo' => 'disciplina',
 		'instituicao' => 'unipar',
 		'projeto' => 'livro-digital-pos',
 		'disciplina' => $temp['disciplina'][$i],
 		'item' => 0,
 	);
-	print_r($temp['base']);
+	// monta_data($temp['form']);
 }
 
 // create_settings($temp);
 // print_r(json_encode(create_settings($temp)['done']));
 // print_r(create_settings($temp)['done']);
+
+$a['1']['1.1']['1.1.1'] = 'a';
+$a['1']['1.1']['1.1.2'] = 'b';
+$a['1']['1.2']['1.2.1'] = 'c';
+
+$b['1']['1.1']['1.1.2'] = 'x';
+$b['1']['1.3']['1.1.2'] = 'x';
+
+
+
+print_r( $a );
+print_r( array_replace_recursive($a, $b) );
+print_r( array_replace_recursive($b, $a) );
 
 ?>
