@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"ec",
+				"echo"
+			],
+			[
+				"array_mer",
+				"array_merge_recursive"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"func",
+				"func"
+			],
+			[
+				"trata",
+				"trata_form"
+			],
+			[
 				"array_re",
 				"array_replace"
 			],
 			[
 				"op",
 				"option	Tag"
-			],
-			[
-				"for",
-				"for	for …"
 			],
 			[
 				"t",
@@ -228,10 +244,6 @@
 				"else"
 			],
 			[
-				"func",
-				"function"
-			],
-			[
 				"valida",
 				"valida_parametro"
 			],
@@ -299,14 +311,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/D/fernando.fte/Projetos/web/workflow/php/disciplinas.php",
-			"settings":
-			{
-				"buffer_size": 6232,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -375,8 +379,8 @@
 	],
 	"file_history":
 	[
-		"/D/fernando.fte/Projetos/web/workflow/php/disciplinas.php",
 		"/D/fernando.fte/Projetos/web/workflow/php/.config.php",
+		"/D/fernando.fte/Projetos/web/workflow/php/disciplinas.php",
 		"/D/fernando.fte/Projetos/web/workflow/php/functions.php",
 		"/D/fernando.fte/Projetos/web/workflow/_src/sublime/workflow[casa].sublime-project",
 		"/D/fernando.fte/Projetos/web/workflow/_src/sublime/workflow - Copia.sublime-project",
@@ -524,6 +528,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"		#",
+			"$result['done']",
+			"$result",
+			"$result['done'][$me]",
+			"$input",
+			");\n",
+			"$temp",
+			"$reserve",
+			"$result['process']['iniciar']",
 			"$GLOBALS['settings']['banco']['table'][$table]",
 			"$me['table']",
 			"$post",
@@ -642,16 +655,7 @@
 			"btn",
 			"btn btn",
 			"label label-danger",
-			"<!-- /.col-lg-6 -->",
-			"<!-- /input-group -->",
-			"<?",
-			"app-vg",
-			"'app'",
-			"app-vg",
-			"app-vg-",
-			"$settings['dir']['app-vg']",
-			"$settings['dir']['app']",
-			"publish"
+			"<!-- /.col-lg-6 -->"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -691,38 +695,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/D/fernando.fte/Projetos/web/workflow/php/disciplinas.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6232,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6216,
-								6216
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1603.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

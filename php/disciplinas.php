@@ -195,8 +195,7 @@ function create_settings($post, $func){
 # # # Função para criar valores
 function trata_form($form, $input, $func) {
 	// $form = string // Recebe o nome do formulario
-	// $input = string// (string) Recebe o nome do campo;
-	// $value = recebe o valor relativo ao input
+	// $input = array // Uma lista com o campo e o valor
 	// $func = ? // Recebe as diretrizes para uma sub solicitação
 
 	# # # DECLARA INSTANCIAS DO RESULTADO
@@ -212,19 +211,12 @@ function trata_form($form, $input, $func) {
 		),
 	);
 
-	$stg['form'] = array(
-		'form_name' => array(
-			
-			'nome_do_campo' => 'nome:/:valor do campo:/:1',
-			'nome_do_campo2' => 'nome:/:valor do campo:/:2'
-		),
-	);
 
-
-
+	# # VALIDA SE É UMA SUB SOLICITAÇÃO # #
 	if ($func != false) {
 		$result['this'] = 'me';
 	}
+	# # VALIDA SE É UMA SUB SOLICITAÇÃO # #
 
 	# # SELECIONA CADA INPUT # #
 	foreach ($input as $key => $value) {
@@ -234,7 +226,7 @@ function trata_form($form, $input, $func) {
 		}
 
 		if ($result['this'] != 'me') {
-			$reserve['matriz'] = explode(':/:', $stg['form'][$form][$key]);
+			$reserve['matriz'] = explode(':/:', $GLOBALS['settings']['banco']['form'][$form][$key]);
 		}
 
 		# Reserva nome do array
@@ -272,8 +264,8 @@ function trata_form($form, $input, $func) {
 			$result['done'] = array_replace_recursive($reserve['done'], $result['done']);
 		}
 		# # # FINALIZA PROCESSAMENTO # # #
-
 	}
+	# # SELECIONA CADA INPUT # #
 
 	# # # Retorna
 	return $result;
@@ -282,7 +274,7 @@ function trata_form($form, $input, $func) {
 
 // trata_form('form_name', 'nome_do_campo', 'Fernando');
 // print_r(trata_form('form_name', 'nome_do_campo', 'Fernando'));
-print_r(trata_form('form_name', array('nome_do_campo' => 'Fernando', 'nome_do_campo2' => 'Evangelista'))['done']);
+print_r(trata_form('form_1', array('label_1' => 'Fernando', 'label_2' => 'Evangelista'))['done']);
 
 
 

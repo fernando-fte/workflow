@@ -53,6 +53,14 @@
 	# # # # Configura reserva de dados selecionados
 	$settings['banco']['reserve'] = array();
 
+	# # # Configura matriz para dormularios
+	$settings['banco']['form'] = array(
+		'form_1' => array(
+			'label_1' => 'no1:/:no1.1',
+			'label_2' => 'no1:/:no1.2',
+		),
+	);
+
 	# # # /CONFIGURA DADOS PADRAO PARA O BANCO DE DADOS / # # # #
 
 
