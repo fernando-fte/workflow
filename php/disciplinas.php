@@ -193,62 +193,99 @@ function create_settings($post, $func){
 }
 
 # # # Função para criar valores
-function monta_data($post, $func) {
+function trata_form($form, $input, $func) {
+	// $form = string // Recebe o nome do formulario
+	// $input = string// (string) Recebe o nome do campo;
+	// $value = recebe o valor relativo ao input
+	// $func = ? // Recebe as diretrizes para uma sub solicitação
+
 	# # # DECLARA INSTANCIAS DO RESULTADO
 	$result = array(
 		'success' => null,
 		'erro' => null,
 		'this' => 'F::monta_data',
-		'done' => null,
+		'done' => array(),
 		'process' => array (
-			'novo' => true,
+			'iniciar' => array(
+				'success' =>true
+			),
+		),
+	);
+
+	$stg['form'] = array(
+		'form_name' => array(
+			
+			'nome_do_campo' => 'nome:/:valor do campo:/:1',
+			'nome_do_campo2' => 'nome:/:valor do campo:/:2'
 		),
 	);
 
 
-	# # # Define modelo basico
-	$reserve = array(
-		'disciplina' => $post['disciplina'],
-		'nomes' => array(
-			'normal' => $post['disciplina']
-		),
-	);
 
-	# # # Monta dados dos da disciplina
-	print_r($post);
+	if ($func != false) {
+		$result['this'] = 'me';
+	}
+
+	# # SELECIONA CADA INPUT # #
+	foreach ($input as $key => $value) {
+
+		if ($result['this'] == 'me') {
+			$reserve['matriz'] = $func;
+		}
+
+		if ($result['this'] != 'me') {
+			$reserve['matriz'] = explode(':/:', $stg['form'][$form][$key]);
+		}
+
+		# Reserva nome do array
+		$me = $reserve['matriz'][0];
+
+		# # # SELECIONA CADA ITEM DA LISTA # # #
+		if (count($reserve['matriz']) > 1) {
+
+			# Remove o nivel atual da matriz
+			unset($reserve['matriz'][0]);
+
+			# Re inicia indice
+			$reserve['matriz'] = array_values($reserve['matriz']);
+
+			# Retorna para done a função
+			$reserve['done'][$me] = trata_form($form, array($key=>$value), $reserve['matriz'])['done'];
+		}
+
+		# # # Caso seja o ultimo nivel
+		else if (count($reserve['matriz']) == 1) {
+
+			# Aloca o valor no final do  ultimo item
+			$reserve['done'][$me] = $value;
+		}
+		# # # SELECIONA CADA ITEM DA LISTA # # #
+
+		# # # FINALIZA PROCESSAMENTO # # #
+		if ($result['this'] == 'me') {
+			$result['done'][$me] = $reserve['done'][$me];
+		}
+
+		if ($result['this'] != 'me') {
+
+			// $result['done'][] = $reserve['done'];
+			$result['done'] = array_replace_recursive($reserve['done'], $result['done']);
+		}
+		# # # FINALIZA PROCESSAMENTO # # #
+
+	}
 
 	# # # Retorna
 	return $result;
 }
 
 
-for ($i=0; $i < 1; $i++) { 
-	# Itens basicos
-	$temp['form'] = array(
-		'conteudo' => 'disciplina',
-		'instituicao' => 'unipar',
-		'projeto' => 'livro-digital-pos',
-		'disciplina' => $temp['disciplina'][$i],
-		'item' => 0,
-	);
-	// monta_data($temp['form']);
-}
-
-// create_settings($temp);
-// print_r(json_encode(create_settings($temp)['done']));
-// print_r(create_settings($temp)['done']);
-
-$a['1']['1.1']['1.1.1'] = 'a';
-$a['1']['1.1']['1.1.2'] = 'b';
-$a['1']['1.2']['1.2.1'] = 'c';
-
-$b['1']['1.1']['1.1.2'] = 'x';
-$b['1']['1.3']['1.1.2'] = 'x';
+// trata_form('form_name', 'nome_do_campo', 'Fernando');
+// print_r(trata_form('form_name', 'nome_do_campo', 'Fernando'));
+print_r(trata_form('form_name', array('nome_do_campo' => 'Fernando', 'nome_do_campo2' => 'Evangelista'))['done']);
 
 
 
-print_r( $a );
-print_r( array_replace_recursive($a, $b) );
-print_r( array_replace_recursive($b, $a) );
+// array_replace_recursive($original, $atual);
 
 ?>
