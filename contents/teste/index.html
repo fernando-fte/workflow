@@ -1,59 +1,429 @@
+<pre>
 <?php 
+# # # # / FUNÇÃO PARA VALIDAR DATAJSON / # # # #
+function getDataJsonValitate($post, $func) {
 
-// $teste = array(
-// 	'id' => 'abc123abc'
-// );
-
-// // normalize_select($teste);
-// print_r(normalize_select($teste));
-
-
-
-// $teste = array(
-// 	'type' => 'select',
-// 	'table' => 'base',
-// 	'where' => array(
-// 		2 => 'autor'
-// 	),
-// 	'regra' => array('limit' => 1),
-// 	'return' => array('3', '2')
-// 	// 'return' => '*'
-// );
-
-// print_r(select($teste)['result']);
+	# # # DECLARA INSTANCIAS DO RESULTADO
+	$result = array(
+		'success' => null,
+		'erro' => null,
+		'this' => 'F::getSelectData_valida',
+		'done' => null,
+		'process' => array (
+			'default' => array(
+				'.existe' => false,
+				'.exigido' => null,
+				'.type' => null,
+				'.exato' => null,
+				'.contents' => null,
+			)
+		),
+	);
+	# # # DECLARA INSTANCIAS DO RESULTADO
 
 
-# # # Elementos base de values
-/*** VALUES:
-{
-	"._.settings": {
-		"._.selects": {
-			"0": "",
-			"2": "",
-			"3": "",
-			"4": "",
-			"5": ""
+	$matriz = json_decode('{
+		"._.list":["nome", "valor"],
+		"nome":{
+			"._.type":["string"],
+			"._.required":true,
+			"._.exact":{"string":["Teste"] }
 		},
-		"._.history": {
-			"create": {"date":""}
+		"valor":{
+			"._.type":["array"],
+			"._.required":false,
+			"._.list":["conteudo"],
+			"conteudo":{
+				"._.type":["string"]
+			}
+		}
+	}', true);
+
+	# # # VALIDA SE É A SUB-FUNÇÃO # # #
+	if ($func == true) { $result['this'] = 'me';}
+	# # # VALIDA SE É A SUB-FUNÇÃO # # #
+
+
+	# # # RESERVA VALORES DA MATRIZ # # #
+	# # # Caso seja uma sub-funcao
+	if ($result['this'] == 'me') {
+		$reserve = $func;
+	}
+
+	# # # Caso a solicitação seja normal
+	if ($result['this'] != 'me') {
+		$reserve = $matriz;
+	}
+	# # # RESERVA VALORES DA MATRIZ # # #
+
+
+	# # # Seleciona cada item da lista da matriz
+	for ($i=0; $i < count($reserve['._.list']); $i++) { 
+
+		# # # # Nome do elemento atual da matriz
+		$nome = $reserve['._.list'][$i];
+
+		# # # # Declara processo para esse nome
+		$result['process'][$nome] = $result['process']['default'];
+
+		# # # # Valida se nome foi enviado por post
+		if (array_key_exists($nome, $post)) {
+
+			$result['process'][$nome]['.existe'] = true;
+		}
+
+		# # # # Valida se é exigido
+		else if ($reserve[$nome]['._.required'] == true) {
+
+			$result['process'][$nome]['.exigido'] = true;
+			$result['erro'][$nome]['.exigido'] = 'O Elemento é exigido e não foi declarado';
+		}
+
+		# # # # TRATA OS DADOS DO ELEMENTO CASO ELE EXISTA # # # #
+		if ($result['process'][$nome]['.existe'] == true) {
+
+			# # # # Seleciona cada tipo definido
+			$conta = count($reserve[$nome]['._.type']);
+
+			for ($u=0; $u < $conta; $u++) { 
+
+				# # # # # Verifica se o tipo recebido é valido
+				if (gettype($post[$nome]) == $reserve[$nome]['._.type'][$u]) {
+
+					$result['process'][$nome]['.type'] = gettype($post[$nome]);
+					$u = $conta;
+				}
+
+				# # # # # Valida se não existe nenhum valido
+				if (($u+1) == $conta && $result['process'][$nome]['.type'] == null) {
+
+					$result['process'][$nome]['.type'] = false;
+					$result['erro'][$nome]['.type'] = 'Foi recebido um "'.gettype($post[$nome]).'" e era esperado um "'.implode(',', $reserve[$nome]['._.type']).'"';
+				}
+			}unset($u, $conta);
+			# # # # Seleciona cada tipo definido
+
+
+			# # # # Valida se existe valores obrigatórios
+			if (array_key_exists($result['process'][$nome]['.type'], $reserve[$nome]['._.exact'])) {
+
+				$me = $reserve[$nome]['._.exact'][$result['process'][$nome]['.type']];
+				$conta = count($me);
+
+				# # # # # Trata os dados exatos de acordo com seu tipo
+				switch ($result['process'][$nome]['.type']) {
+
+					case 'string':
+						# # # # # # Seleciona cada item 
+						for ($u=0; $u < $conta; $u++) { 
+
+							# # # # # Valida se o valor esta valido
+							if (strtoupper($post[$nome]) == strtoupper($me[$u])) {
+
+								$result['process'][$nome]['.exato'] = true;
+								$u = $conta;
+							}
+
+							# # # # # Valida se não existe nenhum valido
+							if ($result['process'][$nome]['.exato'] == null) {
+
+								$result['process'][$nome]['.exato'] = false;
+								$result['erro'][$nome]['.exato'] = 'O valor declarado foi "'.$post[$nome].'" e era esperado "'.implode(',', $me).'"';
+							}
+						}unset($u, $conta, $me);
+					break;
+
+					case 'boolean':
+						# # # # # Valida se o valor esta valido
+						if ($post[$nome] == $me[$u]) {
+
+							$result['process'][$nome]['.exato'] = true;
+						}
+
+						# # # # # Valida se não existe nenhum valido
+						if ($result['process'][$nome]['.exato'] == null) {
+
+							$result['process'][$nome]['.exato'] = false;
+							$result['erro'][$nome]['.exato'] = 'O valor declarado não é copatível com o esperado';
+						}
+					break;
+				}
+			}
+			# # # # Valida se existe valores obrigatórios
+
+
+			# # # # Valida se existe sub-estruturas
+			if (array_key_exists('._.list', $reserve[$nome])) {
+
+				$me = getSelectData_valida($post[$nome], $reserve[$nome]);
+				$result['process'][$nome]['.contents'] = $me['process'];
+
+				# # # # Inclui os erros caso ele exisya
+				if ($me['erro'] != false) { $result['erro'][$nome]['.contents'] = $me['erro']; }
+				// print_r($me);
+			}
+			# # # # Valida se existe sub-estruturas
+		}
+		# # # # TRATA OS DADOS DO ELEMENTO CASO ELE EXISTA # # # #
+	}unset($i);
+
+	# # # Remove default caso ele seja uma sub-funcao
+	unset($result['process']['default']);
+
+	return $result;
+}
+# # # # / FUNÇÃO PARA VALIDAR DATAJSON / # # # #
+
+
+# # # # / FUNÇÃO PARA TRATAR DATAJSON / # # # #
+function getDataJsonInForm($post, $func) {
+
+	# # # DECLARA INSTANCIAS DO RESULTADO
+	$result = array(
+		'success' => null,
+		'erro' => null,
+		'this' => 'F::getSelectData_valida',
+		'done' => null,
+		'process' => array (
+			'default' => array(
+				'.existe' => false,
+				'.exigido' => null,
+				'.type' => null,
+				'.exato' => null,
+				'.contents' => null,
+			)
+		),
+	);
+	# # # DECLARA INSTANCIAS DO RESULTADO
+
+
+	$matriz = json_decode('{
+		"._.list":["nome", "valor"],
+		"nome":{
+			"._.type":["string"],
+			"._.required":true,
+			"._.exact":{"string":["Teste"] }
+		},
+		"valor":{
+			"._.type":["array"],
+			"._.required":false,
+			"._.list":["conteudo"],
+			"conteudo":{
+				"._.type":["string"]
+			}
+		}
+	}', true);
+
+	# # # VALIDA SE É A SUB-FUNÇÃO # # #
+	if ($func == true) { $result['this'] = 'me';}
+	# # # VALIDA SE É A SUB-FUNÇÃO # # #
+
+
+	# # # RESERVA VALORES DA MATRIZ # # #
+	# # # Caso seja uma sub-funcao
+	if ($result['this'] == 'me') {
+		$reserve = $func;
+	}
+
+	# # # Caso a solicitação seja normal
+	if ($result['this'] != 'me') {
+		$reserve = $matriz;
+	}
+	# # # RESERVA VALORES DA MATRIZ # # #
+
+
+	# # # Seleciona cada item da lista da matriz
+	for ($i=0; $i < count($reserve['._.list']); $i++) { 
+
+		# # # # Nome do elemento atual da matriz
+		$nome = $reserve['._.list'][$i];
+
+		# # # # Declara processo para esse nome
+		$result['process'][$nome] = $result['process']['default'];
+
+		# # # # Valida se nome foi enviado por post
+		if (array_key_exists($nome, $post)) {
+
+			$result['process'][$nome]['.existe'] = true;
+		}
+
+		# # # # Valida se é exigido
+		else if ($reserve[$nome]['._.required'] == true) {
+
+			$result['process'][$nome]['.exigido'] = true;
+			$result['erro'][$nome]['.exigido'] = 'O Elemento é exigido e não foi declarado';
+		}
+
+		# # # # TRATA OS DADOS DO ELEMENTO CASO ELE EXISTA # # # #
+		if ($result['process'][$nome]['.existe'] == true) {
+
+			# # # # Seleciona cada tipo definido
+			$conta = count($reserve[$nome]['._.type']);
+
+			for ($u=0; $u < $conta; $u++) { 
+
+				# # # # # Verifica se o tipo recebido é valido
+				if (gettype($post[$nome]) == $reserve[$nome]['._.type'][$u]) {
+
+					$result['process'][$nome]['.type'] = gettype($post[$nome]);
+					$u = $conta;
+				}
+
+				# # # # # Valida se não existe nenhum valido
+				if (($u+1) == $conta && $result['process'][$nome]['.type'] == null) {
+
+					$result['process'][$nome]['.type'] = false;
+					$result['erro'][$nome]['.type'] = 'Foi recebido um "'.gettype($post[$nome]).'" e era esperado um "'.implode(',', $reserve[$nome]['._.type']).'"';
+				}
+			}unset($u, $conta);
+			# # # # Seleciona cada tipo definido
+
+
+			# # # # Valida se existe valores obrigatórios
+			if (array_key_exists($result['process'][$nome]['.type'], $reserve[$nome]['._.exact'])) {
+
+				$me = $reserve[$nome]['._.exact'][$result['process'][$nome]['.type']];
+				$conta = count($me);
+
+				# # # # # Trata os dados exatos de acordo com seu tipo
+				switch ($result['process'][$nome]['.type']) {
+
+					case 'string':
+						# # # # # # Seleciona cada item 
+						for ($u=0; $u < $conta; $u++) { 
+
+							# # # # # Valida se o valor esta valido
+							if (strtoupper($post[$nome]) == strtoupper($me[$u])) {
+
+								$result['process'][$nome]['.exato'] = true;
+								$u = $conta;
+							}
+
+							# # # # # Valida se não existe nenhum valido
+							if ($result['process'][$nome]['.exato'] == null) {
+
+								$result['process'][$nome]['.exato'] = false;
+								$result['erro'][$nome]['.exato'] = 'O valor declarado foi "'.$post[$nome].'" e era esperado "'.implode(',', $me).'"';
+							}
+						}unset($u, $conta, $me);
+					break;
+
+					case 'boolean':
+						# # # # # Valida se o valor esta valido
+						if ($post[$nome] == $me[$u]) {
+
+							$result['process'][$nome]['.exato'] = true;
+						}
+
+						# # # # # Valida se não existe nenhum valido
+						if ($result['process'][$nome]['.exato'] == null) {
+
+							$result['process'][$nome]['.exato'] = false;
+							$result['erro'][$nome]['.exato'] = 'O valor declarado não é copatível com o esperado';
+						}
+					break;
+				}
+			}
+			# # # # Valida se existe valores obrigatórios
+
+
+			# # # # Valida se existe sub-estruturas
+			if (array_key_exists('._.list', $reserve[$nome])) {
+
+				$me = getSelectData_valida($post[$nome], $reserve[$nome]);
+				$result['process'][$nome]['.contents'] = $me['process'];
+
+				# # # # Inclui os erros caso ele exisya
+				if ($me['erro'] != false) { $result['erro'][$nome]['.contents'] = $me['erro']; }
+				// print_r($me);
+			}
+			# # # # Valida se existe sub-estruturas
+		}
+		# # # # TRATA OS DADOS DO ELEMENTO CASO ELE EXISTA # # # #
+	}unset($i);
+
+	# # # Remove default caso ele seja uma sub-funcao
+	unset($result['process']['default']);
+
+	return $result;
+}
+# # # # / FUNÇÃO PARA TRATAR DATAJSON / # # # #
+
+
+$teste = array(
+	'nome' => 'teste',
+	"valor" => array(
+		"conteudo" => "Ola"
+	),
+	// 'nome' => array('teste'),
+	// 'nome_' => 'teste',
+	// 'nome' => 'tete',
+);
+
+/*
+
+{
+	"._.list":["nome", "valor"],
+	"nome":{
+		"._.type":["string"],
+		"._.required":true,
+		"._.exact":{"string":["Teste"] }
+		"._.form":{
+			"input_name":["form1", "form2"]
+		}
+	},
+	"valor":{
+		"._.type":["array"],
+		"._.required":false,
+		"._.list":["conteudo"],
+		"conteudo":{
+			"._.type":["string"]
+		}
+	}
+
+	"._.settings":{
+		"._.selectors":{
+			"0":"SKU",
+			"2":"seletr1",
+			"3":"seletor2",
+			"4":"seletor3",
+			"5":"seletor4",
+			"6":0
+		},
+
+		"._.security":{
+			"master":"lmr",// l=ler; m=modificar; r=remover;
+			"creator":"lm",
+			"grupo_adm":"lm",
+			"convidado":"l"
+		},
+
+		"._.history":{
+			"._.create":{
+				"user":"IDUSER",
+				"log":"IDLOG",
+				"date":"data-da-criação"
+			},
+
+			"._.update":{
+				"data-do-update":"IDLOG"
+			}
+		}
+
+		"._.imap":{
+			"._.me":{
+				"nome":["._.selector>4"]
+			},
+			"._.lock":{
+				"user":
+			}
 		}
 	}
 }
-***/
 
-// $add_base = array(
-// 	'type' => 'insert',
-// 	'table' => 'base',
-// 	'select' => array(
-// 		'id' => md5('md5')
-// 	)
-
-// ),
-
-
-// sku('oi');
-// print_r(new_sku('oi', 'base'));
-
-
+*/
+// getSelectData_valida($teste);
+// print_r(getSelectData_valida($teste));
 
 ?>
+</pre>

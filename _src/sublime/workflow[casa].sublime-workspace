@@ -4,16 +4,40 @@
 		"selected_items":
 		[
 			[
+				"echo",
+				"echo"
+			],
+			[
+				"con",
+				"conta"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"print",
+				"printf"
+			],
+			[
+				"fo",
+				"for	for …"
+			],
+			[
 				"ec",
 				"echo"
 			],
 			[
 				"array_mer",
 				"array_merge_recursive"
-			],
-			[
-				"for",
-				"foreach	foreach …"
 			],
 			[
 				"func",
@@ -256,20 +280,8 @@
 				"empty"
 			],
 			[
-				"con",
-				"count"
-			],
-			[
-				"print",
-				"print_r"
-			],
-			[
 				"gett",
 				"gettype"
-			],
-			[
-				"prin",
-				"print_r"
 			],
 			[
 				"array_key",
@@ -311,6 +323,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/D/fernando.fte/Projetos/web/workflow/contents/teste/index.html",
+			"settings":
+			{
+				"buffer_size": 5830,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/fernando.fte/Projetos/web/workflow/php/.config.php",
+			"settings":
+			{
+				"buffer_size": 2521,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -374,14 +402,20 @@
 	"expanded_folders":
 	[
 		"/D/fernando.fte/Projetos/web/workflow",
+		"/D/fernando.fte/Projetos/web/workflow/contents",
+		"/D/fernando.fte/Projetos/web/workflow/contents/teste",
+		"/D/fernando.fte/Projetos/web/workflow/library",
 		"/D/fernando.fte/Projetos/web/workflow/php",
 		"/D/fernando.fte/Projetos/web/workflow/php/vendor"
 	],
 	"file_history":
 	[
-		"/D/fernando.fte/Projetos/web/workflow/php/.config.php",
 		"/D/fernando.fte/Projetos/web/workflow/php/disciplinas.php",
+		"/D/fernando.fte/Projetos/web/workflow/contents/teste/index.html",
+		"/D/fernando.fte/Projetos/web/workflow/php/.functions.php",
 		"/D/fernando.fte/Projetos/web/workflow/php/functions.php",
+		"/D/fernando.fte/Projetos/web/workflow/php/validador.php",
+		"/D/fernando.fte/Projetos/web/workflow/php/.config.php",
 		"/D/fernando.fte/Projetos/web/workflow/_src/sublime/workflow[casa].sublime-project",
 		"/D/fernando.fte/Projetos/web/workflow/_src/sublime/workflow - Copia.sublime-project",
 		"/C/Users/FernandoTruculo/Desktop/Psicologia da Educação Fundamentos para a Aprendizagem e o Desenvolvimento Humano/psicologia-da-educacao-fundamentos-para-a-aprendizagem-e-o-desenvolvimento-humano.html",
@@ -503,10 +537,7 @@
 		"/D/fernando.fte/Projetos/web/Laboratorio/nodetest1/package.json",
 		"/C/Users/FernandoTruculo/Downloads/Fundamentos Psicopedagógicos da Aprendizagem.html",
 		"/C/Users/FernandoTruculo/Desktop/book.html",
-		"/D/fernando.fte/Projetos/web/Laboratorio/app.js",
-		"/D/fernando.fte/Projetos/web/livroDigital/php/scripts/app.coffee",
-		"/D/fernando.fte/Projetos/web/livroDigital/php/index.php",
-		"/D/fernando.fte/Projetos/web/livroDigital/lab/htmlConstruct.html"
+		"/D/fernando.fte/Projetos/web/Laboratorio/app.js"
 	],
 	"find":
 	{
@@ -528,6 +559,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"getSelect_data",
+			"valida_valor",
+			"'contents'",
+			"contents",
+			"'exato'",
+			"'type'",
+			"'exigido'",
+			"'existe'",
+			"._.",
+			"$matriz",
+			"$matri",
+			"type",
+			"$matriz[$nome]['._.type'][$u]",
+			"name",
+			"VALIDA A FUNÇÃO ",
+			"teste",
+			"'",
 			"		#",
 			"$result['done']",
 			"$result",
@@ -638,24 +686,7 @@
 			"[\\(]?PIAGET,[\\(]?[0-9]*[a]?[, p. [0-9]*]?\\)",
 			"[\\(]?PIAGET[\\(]?[0-9]*[a]?[, p. [0-9]*]?\\)",
 			"[\\(]?var [\\(]?[0-9]*[a]?[, p. [0-9]*]?\\)",
-			"78",
-			"style",
-			"livrosedit",
-			"livros",
-			"list",
-			"new",
-			"    ",
-			"   ",
-			"  ",
-			"btn ",
-			"input-group\">",
-			"button",
-			"xs",
-			"btn ",
-			"btn",
-			"btn btn",
-			"label label-danger",
-			"<!-- /.col-lg-6 -->"
+			"78"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -663,6 +694,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'.contents'",
+			"'.exato'",
+			"'.type'",
+			"'.exigido'",
+			"'.existe'",
 			"</span>",
 			"<span data-book-fonte>",
 			"&#160;",
@@ -695,8 +731,68 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/D/fernando.fte/Projetos/web/workflow/contents/teste/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4878,
+								4878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2084.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/fernando.fte/Projetos/web/workflow/php/.config.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								528,
+								528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 305.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -749,6 +845,14 @@
 		"selected_items":
 		[
 			[
+				".func",
+				"php\\.functions.php"
+			],
+			[
+				"func",
+				"php\\functions.php"
+			],
+			[
 				".con",
 				"php\\.config.php"
 			],
@@ -783,10 +887,6 @@
 			[
 				"app.l",
 				"style\\app.less"
-			],
-			[
-				".func",
-				"php\\.functions.php"
 			],
 			[
 				"pages",
@@ -847,10 +947,6 @@
 			[
 				"map",
 				"sources\\map.src"
-			],
-			[
-				"func",
-				"php\\functions.php"
 			],
 			[
 				"index",
@@ -969,6 +1065,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"D:\\fernando.fte\\Projetos\\web\\livrodigital\\_src\\SublimeText\\livrodigitalpro[casa].sublime-project"
+			]
 		],
 		"width": 380.0
 	},

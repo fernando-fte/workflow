@@ -1,62 +1,4 @@
 <?php
-/*
-	{
-		00 = $md5() //sku
-		01 = {} // dados
-		02 = disciplina // conteudo
-		03 = unipar // instituicao
-		04 = livro-digital-pos // projeto
-		05 = Nome do livro // nome
-		06 = ordem // item
-	}
-
-	'dados': {
-		'disciplina':$nome-da-disciplina,
-		'id':'',
-		'caminho':$path>,
-		'._.settings':{
-			'._.selects':{
-				
-			}
-		}
-	}
-*/
-$temp['base'] = array(
-	'conteudo' => 'disciplina',
-	'instituicao' => 'unipar',
-	'projeto' => 'livro-digital-pos',
-	'nome' => 'Nome',
-	'item' => 0,
-);
-
-$temp['disciplina'] = array (
-	'Neuropedagogia e os Fundamentos para a Leitura e Escrita',
-	'Metodologia do Ensino Superior',
-	'Necessidades educacionais específicas e o trabalho pedagógico em AEE',
-	'Fundamentos e Histórico da EAD',
-	'Currículo, Organização e Avaliação do Trabalho Pedagógico',
-	'História, Estética e o Ensino da Arte',
-	'Tópicos de conteúdos da matemática',
-	'Componentes gerenciais, financeiros e RH na gestão escolar',
-	'Fisiopatologia em Oncologia',
-	'Fisiopatologia da obesidade',
-	'Nutrição Funcional e Estética no Exercício',
-	'Políticas de Saúde para Atenção Integral aos Usuários de Álcool e outras Drogas',
-	'Políticas Públicas de Saúde Mental',
-	'Noções em geriatria e gerontologia',
-	'Prescrição do exercício aeróbio e anaeróbio',
-	'Educação Ambiental para Sustentabilidade ',
-	'Perícia Florestal',
-	'Gestão Ambiental',
-	'Legislação Trabalhista',
-	'Diagnóstico Empresarial',
-	'Gestão de Negócios Agroindustriais',
-	'Liderança e Motivação',
-	'Técnicas em Pesquisa e Mercado',
-	'Modelo de Negócio do Varejo e do Franchising',
-	'Logística Empresarial'
-);
-
 $temp['values'] = array(
 	'disciplina' => $temp['disciplina'][1],
 	'id' => 'SKU',
@@ -70,7 +12,6 @@ $temp['values'] = array(
 );
 
 
-// print_r($temp['dados']);
 # # # Função para criar novo seletor
 function create_selects($post, $func) {
 	// $post = Recebe conjunto de valores
@@ -85,7 +26,6 @@ function create_selects($post, $func) {
 			'novo' => true,
 		),
 	);
-
 
 	# # Seletor simples
 	$reserve['select'] = array('type' => 'select','table' => null,'where' => array(0 => null),'regra' => array('limit' => 1),'return' => array('1'));
@@ -271,13 +211,6 @@ function trata_form($form, $input, $func) {
 	return $result;
 }
 
-
-// trata_form('form_name', 'nome_do_campo', 'Fernando');
-// print_r(trata_form('form_name', 'nome_do_campo', 'Fernando'));
-print_r(trata_form('form_1', array('label_1' => 'Fernando', 'label_2' => 'Evangelista'))['done']);
-
-
-
-// array_replace_recursive($original, $atual);
+// print_r(trata_form('form_1', array('label_1' => 'Fernando', 'label_2' => 'Evangelista'))['done']);
 
 ?>
