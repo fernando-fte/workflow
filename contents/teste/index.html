@@ -177,12 +177,15 @@ function getDataJsonValitate($post, $func) {
 
 # # # # / FUNÇÃO PARA TRATAR DATAJSON / # # # #
 function getDataJsonInForm($post, $func) {
+	/*
+	// post = array('form_name' => array('input_name':'value')) 
+	*/
 
 	# # # DECLARA INSTANCIAS DO RESULTADO
 	$result = array(
 		'success' => null,
 		'erro' => null,
-		'this' => 'F::getSelectData_valida',
+		'this' => 'F::getDataJsonInForm',
 		'done' => null,
 		'process' => array (
 			'default' => array(
@@ -233,7 +236,8 @@ function getDataJsonInForm($post, $func) {
 
 
 	# # # Seleciona cada item da lista da matriz
-	for ($i=0; $i < count($reserve['._.list']); $i++) { 
+	$i_count = count($reserve['._.list']);
+	for ($i=0; $i < $i_count; $i++) { 
 
 		# # # # Nome do elemento atual da matriz
 		$nome = $reserve['._.list'][$i];
@@ -330,7 +334,7 @@ function getDataJsonInForm($post, $func) {
 			# # # # Valida se existe sub-estruturas
 			if (array_key_exists('._.list', $reserve[$nome])) {
 
-				$me = getSelectData_valida($post[$nome], $reserve[$nome]);
+				$me = getDataJsonInForm($post[$nome], $reserve[$nome]);
 				$result['process'][$nome]['.contents'] = $me['process'];
 
 				# # # # Inclui os erros caso ele exisya
@@ -340,7 +344,7 @@ function getDataJsonInForm($post, $func) {
 			# # # # Valida se existe sub-estruturas
 		}
 		# # # # TRATA OS DADOS DO ELEMENTO CASO ELE EXISTA # # # #
-	}unset($i);
+	}unset($i, $i_count);
 
 	# # # Remove default caso ele seja uma sub-funcao
 	unset($result['process']['default']);
